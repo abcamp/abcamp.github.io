@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "This will be my about page."
   },
   {
     "objectID": "index.html",
@@ -12,5 +12,12 @@
     "title": "Amber Camp",
     "section": "",
     "text": "Hello!\nI am a data scientist specializing in research methods and experimental design. I like baking. I am trying to make a website."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "This will be my CV."
   }
 ]
