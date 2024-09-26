@@ -4,14 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "This will be my about page."
+    "text": "This will be my about page.\nHere is a video example:\nVideo\nFYI, I tried a .mov file and it didn’t work. This one is an .mp4"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Amber Camp",
     "section": "",
-    "text": "Hello!\nI am a data scientist specializing in research methods and experimental design. I like baking. I am trying to make a website."
+    "text": "Hello!\nI am a data scientist specializing in research methods, experimental design, and statistical analysis. I like baking. I am trying to make a website."
   },
   {
     "objectID": "cv.html",

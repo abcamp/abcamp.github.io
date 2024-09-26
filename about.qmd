@@ -3,3 +3,9 @@ title: "About"
 ---
 
 This will be my about page.
+
+Here is a video example:
+
+![](media/1.mp4)
+
+FYI, I tried a .mov file and it didn't work. This one is an .mp4

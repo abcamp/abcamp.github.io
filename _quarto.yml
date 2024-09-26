@@ -1,21 +1,31 @@
 project:
   type: website
   output-dir: docs
+  
 
 website:
-  title: "Amber Camp"
+  #title: "Amber Camp"
   navbar:
-    left:
+    right:
       - href: index.qmd
         text: Home
       - about.qmd
       - cv.qmd
-
+      - icon: github
+        href: https://github.com/abcamp
+    background: secondary
+    search: true
+    pinned: true
+  page-footer:
+    left: © Copyright 2024, Amber Camp
+    right: This website is built with [{{< fa brands r-project title="R Project" >}}](https://www.r-project.org/about.html){target=_blank}
+        
 format:
   html:
-    theme: minty
+    theme: 
+      light: minty
+      dark: solar
     css: styles.css
     toc: true
 
 editor: visual
-

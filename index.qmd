@@ -5,14 +5,16 @@ toc: true
 about: 
   template: trestles
   image-shape: round
-  image-width: 17em
+  image-width: 10em
   links:
-    - text: GitHub
-      href: https://github.com/abcamp
+    - text: LinkedIn
+      icon: linkedin
+      href: http://linkedin.com/in/amber-camp
     - text: Email
+      icon: envelope
       href: mailto:amber.camp@chaminade.edu
 ---
 
 Hello!
 
-I am a data scientist specializing in research methods and experimental design. I like baking. I am trying to make a website.
+I am a data scientist specializing in research methods, experimental design, and statistical analysis. I like baking. I am trying to make a website.
