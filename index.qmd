@@ -1,11 +1,18 @@
 ---
-title: "abcamp.github.io"
+title: "Amber Camp"
+image: media/wug.jpg
+toc: true
+about: 
+  template: trestles
+  image-shape: round
+  image-width: 17em
+  links:
+    - text: GitHub
+      href: https://github.com/abcamp
+    - text: Email
+      href: mailto:amber.camp@chaminade.edu
 ---
 
-This is a Quarto website!
+Hello!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+I am a data scientist specializing in research methods and experimental design. I like baking. I am trying to make a website.
