@@ -2,10 +2,14 @@
 title: "About"
 ---
 
-This will be my about page.
+This could be my about page, but it's a placeholder for now.
 
-Here is a video example:
+Here is an example of an embedded video (there is no sound in this video, but if there was, that should work!)
 
-![](media/1.mp4)
+![](media/movie.mp4){fig-align="center" width="40%"}
 
 FYI, I tried a .mov file and it didn't work. This one is an .mp4
+
+Here it is again, but left-aligned and a little larger--just so you know these customizations are possible.
+
+![](media/movie.mp4){fig-align="left" width="50%"}

@@ -1,0 +1,27 @@
+---
+title: "Research"
+---
+
+I work at the intersection of phonetics, phonology, and psycholinguistics. My work focuses on the mental representations of suprasegmentals, such as tone and intonation, and the cues listeners use to access these representations in spoken language processing. I investigate these subjects through implementing experiments, both in laboratory and field settings.
+
+## Current projects
+
+### Thai tone & intonation
+
+My dissertation includes five experiments designed to investigate the interaction of lexical tone and sentential intonation in Thai in both perception and production. Specifically, I am investigating how the effects of sentence-final boundary tones (L% or H%) manifest in the phonetic realization of lexical tone, and how the resulting variability of tonal realization is processed. The results of these experiments bear on questions such as whether tonal representations include exemplars of intonationally-induced tonal variability or if cues to lexical tone are processed separately from intonation. [Sample materials from Experiment 1 are available here.](https://ambercamp.com/research/thai-tone-intonation/)
+
+### Stress in Pidgin (Hawaiʻi Creole)
+
+Hawaiʻi Creole, known as Pidgin locally in Hawaiʻi, is English-lexified but exhibits unique prosodic patterns unlike those found in English. For example, yes/no questions have a final falling contour, rather than a final rise, and Pidgin is syllable-time rather than stress-timed. This project is aimed at investigating the acoustic correlates of word-level stress in Pidgin, using perceptual information, as a first step toward the complete description of Pidgin intonation. This research is being conducted under the guidance of [Victoria B. Anderson](http://www2.hawaii.edu/~vanderso/) and [Rory Turnbull](https://roryturnbull.github.io).
+
+### Structural probabilities in speech production in Japanese
+
+This study is a collaboration with [Nozomi Tanaka](https://nozomitanaka.com/), and is based on previous work by Chigusa Kurumada. The predictability of words is known to influence acoustic output, in which more predictable words are produced with a shorter duration. This study explores whether structural probability is also reflected in incremental speech production. We used Japanese relative clauses to address this question, as these relative clauses are prenominal, and the embedded subject can be marked with the ambiguous nominative marker –*ga* or the genitive marker –*no*; the nominative marker is also used in independent clauses, but the genitive marker is not, increasing the probability of an upcoming head noun. This work has recently been presented at ICPhS 2019, and additional data collection is ongoing. [Read the proceedings](https://ambercamp.com/wp-content/uploads/2019/10/icphs0967.pdf "icphs0967").
+
+### Nasality in Lakota
+
+This study is a collaboration with [Ryan E. Henke](https://ryanhenke.com). The aim of this study is to test the effect of orthography in teaching the nasal vowel contrast in Lakota to naive L2 learners. The experiment includes a simple discrimination task as a pre-test to determine whether English monolinguals can perceive the nasal contrast without explicit instruction, followed by a training module, and a post-test to measure improvement from the pre-test. A primary goal of this research is to apply the results from this study toward pedagogical methods for the revitalization of understudied, underdocumented, and endangered languages. This work has recently been [presented at ICLDC 2019](https://scholarspace.manoa.hawaii.edu/handle/10125/44813), and additional analyses are underway. 
+
+### LanguageFinder
+
+This project is in collaboration with [Catherine Brockway](https://geoling.github.io) and [Connor Flynn](https://connorflynn.github.io). Stay tuned for more!

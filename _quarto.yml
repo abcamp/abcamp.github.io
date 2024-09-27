@@ -5,12 +5,17 @@ project:
 
 website:
   #title: "Amber Camp"
+  favicon: media/fav.png
   navbar:
     right:
       - href: index.qmd
         text: Home
       - about.qmd
+      - research.qmd
+      - teaching.qmd
       - cv.qmd
+      - href: assignment.qmd
+        text: Assignment
       - icon: github
         href: https://github.com/abcamp
     background: secondary

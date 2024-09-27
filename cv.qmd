@@ -2,4 +2,250 @@
 title: "CV"
 ---
 
-This will be my CV.
+|                                                                          |     |                                                                                                                                                                                  |
+|--------------------------------------------------------------------------|-----|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Contact me: [amber.camp\@chaminade.edu](mailto:amber.camp@chaminade.edu) |     | [Download PDF](media/camp_cv_public_092724.pdf "camp_cv_public_042821"){.btn .btn-outline-primary .btn target="_blank" role="button" data-toggle="tooltip" title="Download PDF"} |
+
+### Education
+
++:-----+:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2024 | **PhD**, Linguistics, University of Hawaiʻi at Mānoa\                                                                                                                                                                                                                                                |
+|      | Dissertation: *The interaction of tone and intonation in Thai*\                                                                                                                                                                                                                                      |
+|      | Committee: [Amy J. Schafer](http://www2.hawaii.edu/~aschafer/) (Chair), [Victoria B. Anderson](http://www2.hawaii.edu/~vanderso/), [Rory Turnbull](https://www2.hawaii.edu/~rory9/), [Kamil Ud Deen](http://www2.hawaii.edu/~kamil/), [Sang Yee Cheon](http://manoa.hawaii.edu/eall/sang-yee-cheon/) |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2024 | **Advanced Graduate Certificate**, Second Language Studies, UH Mānoa\                                                                                                                                                                                                                                |
+|      | Advisor: [Theres Grüter](https://theresgruter.homestead.com/)                                                                                                                                                                                                                                        |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2019 | **MA** *(en route)*, Linguistics, UH Mānoa                                                                                                                                                                                                                                                           |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2014 | **BA**, Linguistics, UH Mānoa                                                                                                                                                                                                                                                                        |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2013 | Linguistic Society of America Summer Institute, University of Michigan                                                                                                                                                                                                                               |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2010 | **BBA**, Management, Shidler College of Business, UH Mānoa                                                                                                                                                                                                                                           |
++------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Professional Experience
+
+##### Teaching
+
++:----------+:----------------------------------------------------------------------------------+
+| 2021      | Instructor, Linguistics, UH Mānoa\                                                |
+|           | • Morphology (LING 420, undergraduate & graduate mixed)\                          |
+|           | • Introduction to the Study of Language (LING 102, undergraduate)                 |
++-----------+-----------------------------------------------------------------------------------+
+| 2018–2019 | Instructor, Linguistics, UH Mānoa (Five semesters)\                               |
+|           | • Introduction to the Study of Language (LING 102)                                |
++-----------+-----------------------------------------------------------------------------------+
+| 2017      | Teaching Assistant to Victoria B. Anderson, Linguistics, UH Mānoa (One semester)\ |
+|           | • Acoustic Phonetics (LING 611, graduate)\                                        |
+|           | • Articulatory Phonetics (LING 410, undergraduate & graduate mixed)               |
++-----------+-----------------------------------------------------------------------------------+
+| 2016      | Teaching Assistant to Jake Terrell, Linguistics, UH Mānoa (One semester)\         |
+|           | • Introduction to the Study of Language (LING 102)\                               |
+|           | • Language Endangerment, Globalization, and Indigenous Peoples (LING 105)\        |
+|           | • Language in Hawaiʻi and the Pacific (LING 150B)                                 |
++-----------+-----------------------------------------------------------------------------------+
+| 2008      | Teaching Assistant, Information and Computer Sciences, UH Mānoa (One semester)\   |
+|           | • Tools for the Information Age (ICS 101)                                         |
++-----------+-----------------------------------------------------------------------------------+
+
+##### Research
+
++:----------+:------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016–2018 | Graduate Assistant, Tracker Lab, [Language Analysis and Experimentation Labs](https://sites.google.com/a/hawaii.edu/laelabsedit/), UH Mānoa     |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016      | Research Assistant to Ruslan Suvorov, Center for Language & Technology, UH Mānoa,\                                                              |
+|           | “Utilizing electroencephalography (EEG) in research on second language assessment: An exploratory study on language learners’ cognitive states” |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2013–2016 | Research Assistant to Theres Grüter (PI) and Amy J. Schafer (Co-PI), UH Mānoa,\                                                                 |
+|           | “Discourse and prosody in non-native speakers’ reference resolution”                                                                            |
++-----------+-------------------------------------------------------------------------------------------------------------------------------------------------+
+
+### Awards
+
+|           |                                                                              |
+|:----------|:-----------------------------------------------------------------------------|
+| 2021–2022 | Dai Ho Chun Graduate Fellowship                                              |
+| 2021      | Department of Linguistics Graduate Assistantship, UH Mānoa                   |
+| 2020      | Bilinski Educational Foundation Dissertation Fellowship (Two semesters)      |
+| 2020      | LSA Committee on Ethnic Diversity in Linguistics Student Travel Grant        |
+| 2020      | Charlene Sato Memorial Fund                                                  |
+| 2016–2020 | Department of Linguistics Achievement Scholarship, UH Mānoa (Five awards)    |
+| 2017–2019 | Bilinski Educational Foundation Research Award in Linguistics (Three awards) |
+| 2018      | IPA Student Award for LabPhon16                                              |
+| 2017      | Paula Menyuk Travel Award                                                    |
+| 2015      | Department of Linguistics Endowment Fund, UH Mānoa                           |
+| 2014–2020 | Graduate Assistantship, UH Mānoa                                             |
+
+### Publications
+
+##### Conference Proceedings
+
+|      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2019 | **Camp, A. B.**, & Tanaka, N. (2019). Integration of structural probabilities in speech production: Evidence from Japanese relative clauses. In S. Calhoun, P. Escudero, M. Tabain & P. Warren (Eds.), *Proceedings of the 19th International Congress of Phonetic Sciences, Melbourne, Australia 2019* (pp. 3295–3298). Canberra: Australasian Speech Science and Technology Association Inc. \[[PDF](https://ambercamp.com/wp-content/uploads/2019/10/camptanaka-icphs2019.pdf "CampTanaka-ICPhS2019")\] |
+| 2018 | Deen, K., Bondoc, I., **Camp, A.**, Estioca, S., Hwang, H., Shin, G-H., Takahashi, M., Zenker, F., & Zhong, J. C. Repetition Brings Success: Revealing Knowledge of the Passive Voice. In A. B. Bertolini & M. J. Kaplan (Eds.), *BUCLD 42: Proceedings of the 42nd Annual Boston University Conference on Language Development* (pp. 200-213). Somerville, MA: Cascadilla Press \[[PDF](https://ambercamp.com/wp-content/uploads/2019/10/deen-etal-bucld2017.pdf "Deen etal - BUCLD2017")\]               |
+| 2017 | Suvorov, R., & **Camp, A.** An exploratory study of test-takers’ cognitive states using electroencephalography (EEG) and retrospective interviews in the context of L2 testing. In J. Colpaert, A. Aerts, R. Kern & M. Kaiser (Eds.), *CALL in CONTEXT: Proceedings of the XVIIIth International CALL Research Conference* (pp. 680-686). Antwerp, Belgium: University of Antwerp \[[PDF](https://ambercamp.com/wp-content/uploads/2019/10/suvorovcamp-call2017.pdf "SuvorovCamp-CALL2017")\]              |
+| 2015 | Schafer, A. J., Takeda, A., **Camp, A.**, Rohde, H., & Grüter, T. Effects of contrastive intonation and grammatical aspect on processing coreference in Mainstream American English. In The Scottish Consortium for ICPhS 2015 (Ed.), *Proceedings of the 18th International Congress of Phonetic Sciences*. Glasgow, Scotland: University of Glasgow \[[PDF](http://www2.hawaii.edu/~acamp/pdf/Schafer-Takeda-Camp-Rohde-Gruter-ICPhS-2015.pdf)\]                                                         |
+
+##### Book Chapters
+
+|      |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|:-----|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2019 | Schafer, A. J., **Camp, A.**, Rohde, H., & Grüter, T. Contrastive prosody and the subsequent mention of alternatives during discourse processing. In K. Carlson, C. Clifton Jr., & J. Fodor (Eds.) *Grammatical Approaches to Language Processing – Essays in Honor of Lyn Frazier* (pp. 29-44). Springer: Studies in Theoretical Linguistics. doi:[10.1007/978-3-030-01563-3_3](http://doi.org/10.1007/978-3-030-01563-3_3) \[[PDF, data/code](https://scholarspace.manoa.hawaii.edu/handle/10125/56606)\] |
+| 2018 | **Camp, A. B.**, Campbell, L., Chen, V., Lee, N. H., Magnuson, M., & Rarrick, S. Writing grammars of endangered languages. In L. Campbell & K. Rehg (Eds.) *Oxford Handbook of Endangered Languages* (pp. 271-304). New York, NY: Oxford University. doi:[10.1093/oxfordhb/9780190610029.013.15](http://doi.org/10.1093/oxfordhb/9780190610029.013.15)                                                                                                                                                      |
+
+##### Published Abstract
+
+|      |                                                                                                                                                                                                      |
+|:-----|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2016 | **Camp, A. B.** Tone-intonation interaction in context in Thai. *The Journal of the Acoustical Society of America*, *140*(4), 3396-3396. doi:[10.1121/1.4970881 ](https://doi.org/10.1121/1.4970881) |
+
+##### Edited Volumes
+
+|      |                                                                                                                                                                                                                                                                                                                                                    |
+|:-----|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2017 | **Camp, A.**, & Holden, D. (Eds.). *Proceedings 2016: Selected Papers from the Twentieth college-wide conference for students in Languages, Linguistics and Literature* (NFLRC Research Note #54). Honolulu: University of Hawai‘i, National Foreign Language Resource Center. \[[PDF](https://scholarspace.manoa.hawaii.edu/handle/10125/43738)\] |
+| 2016 | **Camp, A.**, Otsuka, Y., Stabile, C., and Tanaka, N. *AFLA 21: Proceedings of the 21st Annual Meeting of the Austronesian Formal Linguistics Association*. Canberra: Asia-Pacific Linguistics. \[[PDF](https://openresearch-repository.anu.edu.au/handle/1885/95329)\]                                                                            |
+
+##### Archived Materials
+
++:-----+:--------------------------------------------------+
+| 2019 | Perception of Thai tones in context\              |
+|      | Data presented in Camp & Schafer (2018, LabPhon)\ |
+|      | <http://hdl.handle.net/10125/59202>               |
++------+---------------------------------------------------+
+
+### Presentations
+
+##### Conferences
+
++:-----+:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2020 | **Camp, A. B.** & Schafer, A. J. *F0 peak alignment differentiates Thai High and Falling tones across intonational contexts*. 30th Annual Meeting of the Southeast Asian Linguistics Society. Honolulu, HI. May 18-20 (talk) *(canceled due to COVID-19 pandemic)*                                                                                          |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2020 | **Camp, A. B.** & Schafer, A. J. *Representing Thai High and Falling tones across intonational contexts*. 94th Annual Meeting of the Linguistic Society of America. New Orleans, LA. January 3 (poster)                                                                                                                                                     |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2019 | **Camp, A. B.** & Tanaka, N. *Integration of structural probability in speech production: Evidence from Japanese relative clauses*. 19th International Congress of Phonetic Sciences. Melbourne, Australia. August 7 ([poster](https://ambercamp.com/wp-content/uploads/2019/11/camp-tanaka-icphs-reducedfilesize.pdf "camp-tanaka-icphs-reducedfilesize")) |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2019 | Henke, R. E. & **Camp, A. B.** *Connecting experimental methods and language teaching: Learner perceptions of oral and nasal vowels in Lakota*. 6th International Conference on Language Documentation and Conservation. Honolulu, HI. March 1 ([talk](https://scholarspace.manoa.hawaii.edu/handle/10125/44813))                                           |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2018 | **Camp, A. B.** & Schafer, A. J. *Perception of Thai tones in context*. Laboratory Phonology 16. Lisbon, Portugal.\                                                                                                                                                                                                                                         |
+|      | June 22 ([poster)](https://ambercamp.com/research/thai-tone-intonation/)                                                                                                                                                                                                                                                                                    |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2017 | Deen, K., Bondoc, I., **Camp, A.**, Estioca, S., Hwang, H., Shin, G., Takahashi, M., Zenker, F., & Zhong, C. *Repetition Brings Success: Revealing knowledge of the passive voice*. 42nd Annual Boston University Conference on Language Development. Boston, MA. November 3 (talk)                                                                         |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016 | *Tone-intonation interaction in context in Thai*. 5th Joint Meeting of the Acoustical Society of America and the Acoustical Society of Japan. Honolulu, HI. December 2 ([poster](https://ambercamp.com/2016/11/28/asa-asj-2016/))                                                                                                                           |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2016 | **Camp, A.** & Schafer, A. J. *Perception of Thai tones in sentence medial and final positions*. The Workshop on Experimental Approaches to East Asian Linguistics. Honolulu, HI. May 19 (poster)                                                                                                                                                           |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| 2015 | Schafer, A. J., Takeda, A., **Camp, A.**, Rohde, H., & Grüter, T. *Effects of contrastive intonation and grammatical aspect on processing coreference in Mainstream American English*. 18th International Congress of Phonetic Sciences. Glasgow, Scotland. August 11 (talk)                                                                                |
++------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+##### Invited Colloquia (external)
+
++:-----+:-------------------------------------------------------------------------------------------------------------------------------+
+| 2019 | *Inspecting the interaction between tones and intonation in Thai*. Department of Linguistics, Victoria University Wellington.\ |
+|      | August 2                                                                                                                       |
++------+--------------------------------------------------------------------------------------------------------------------------------+
+
+##### Colloquia (internal)
+
+|      |                                                                                                                                                                                                                                                                                   |
+|:-----|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2018 | *Online processing of Thai high and falling tones in two sentence positions: A preliminary report*. Department of Linguistics Tuesday Seminar Series, UH Mānoa. October 16                                                                                                        |
+| 2017 | **Camp, A.** & Henke, R.E. *Orthographic representation and perception of L2 phonology: Nasal vowels in Lakota*. Language Acquisition Group, UH Mānoa. November 17                                                                                                                |
+| 2017 | *An investigation of tones and intonation in Thai: Progress report from summer fieldwork*. Department of Linguistics Tuesday Seminar Series, UH Mānoa. November 7                                                                                                                 |
+| 2017 | *Tone-intonation interaction in context in Thai*. Department of Linguistics Tuesday Seminar Series, UH Mānoa. March 21                                                                                                                                                            |
+| 2014 | Bätscher, K., Barlow, R., **Camp, A.**, Chen, Y., Chong, P., Dailey, M., Heston, T., Rehg, K., Rentz, B., Smith, A., Toler, N., Trussel, S., Waldrip, A., & Yeh, Y. The Endangered Oceanic Languages Project. Linguistics Department Tuesday Seminar Series, UH Mānoa. December 9 |
+
+##### Invited Teaching Presentations & Workshops
+
+|      |                                                                                                                     |
+|:-----|:--------------------------------------------------------------------------------------------------------------------|
+| 2019 | *Intonation in tone languages*. LING 640F: Intonation: Phonetics & Phonology. October 25                            |
+| 2019 | *Phonology and orthography*. [Language Documentation Training Center](http://www.ling.hawaii.edu/ldtc/). February 6 |
+| 2018 | *Life in the field* (panel discussion). LING 680: Introduction to Language Documentation. October 17                |
+| 2018 | *Recording and archiving*. Language Documentation Training Center. February 19                                      |
+| 2017 | *Introduction to PsychoPy*. Language Analysis and Experimentation Labs. September 29                                |
+| 2015 | *Prosody & intonation in language documentation*. Language Documentation Training Center. October 19                |
+| 2015 | *Recording & translating a story*. Language Documentation Training Center. September 21                             |
+| 2015 | *Experimental approaches in language science*, LING 102: Introduction to the Study of Language. February 25         |
+
+### Professional Service
+
+##### Abstract Reviewing
+
+|                  |                                                                                                         |
+|:-----------------|:--------------------------------------------------------------------------------------------------------|
+| 2020, 2022       | Laboratory Phonology (conference)                                                                       |
+| 2016, 2018, 2020 | Speech Prosody                                                                                          |
+| 2019             | International Congress of Phonetic Sciences                                                             |
+| 2015             | 19th Annual Graduate Student Conference of the College of Languages, Linguistics & Literature, UH Mānoa |
+| 2015             | Experimental and Theoretical Advances in Prosody                                                        |
+
+##### Conference Organization
+
+|           |                                                                                                                                                        |
+|:----------|:-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2015–2016 | Publicity Chair & Organizing Committee member, 20th Annual Graduate Student Conference of the College of Languages, Linguistics & Literature, UH Mānoa |
+| 2014–2015 | Student Steering Committee member, 4th International Conference on Language Documentation and Conservation                                             |
+| 2014      | Organizing Committee Member, 21st Meeting of the Austronesian Formal Linguistics Association                                                           |
+
+##### Service to the Department
+
+|           |                                                                                |
+|:----------|:-------------------------------------------------------------------------------|
+| 2018–2022 | Senior board member, Language Documentation Training Center                    |
+| 2019–2020 | Student member, Inclusivity Working Group, Department of Linguistics, UH Mānoa |
+| 2017–2018 | Board member, Language Documentation Training Center                           |
+| 2017      | Assistant organizer of colloquia, Department of Linguistics, UH Mānoa          |
+| 2016–2017 | Vice President, Linguistic Society of Hawaiʻi                                  |
+| 2015–2017 | Linguistics Department Representative, Graduate Student Organization, UH Mānoa |
+| 2015–2016 | President, Linguistic Society of Hawaiʻi                                       |
+| 2015      | Mentor, Bhojpuri Documentation Project, Language Documentation Training Center |
+| 2014–2015 | Social Committee Chair, Linguistic Society of Hawai‘i                          |
+| 2013–2014 | Mentor Program Coordinator, Linguistic Society of Hawai‘i                      |
+| 2013–2014 | Undergraduate Representative, Linguistic Society of Hawai‘i                    |
+
+##### Service to the Community
+
+|           |                                                                                                        |
+|:----------|:-------------------------------------------------------------------------------------------------------|
+| 2020      | Workshop Leader, Expanding Your Horizons Hawaiʻi STEM Conference *(canceled due to COVID-19 pandemic)* |
+| 2016–2018 | Community Judge, Annual World Language Speech Festival, Moanalua High School, Honolulu, HI             |
+| 2018      | *Kids Who Code* event co-organizer, Hawaiʻi Chapter, Graduate Women in Science                         |
+| 2015–2016 | Information & Communication Chair, Graduate Student Organization, UH Mānoa                             |
+| 2008–2009 | Officer & Web Designer, Inter-Business Council, Shidler College of Business, UH Mānoa                  |
+
+##### Internet Resource
+
+|       |                                                                                            |
+|:------|:-------------------------------------------------------------------------------------------|
+| 2014– | Editor & Contributor, The Endangered Oceanic Languages Project. <http://trussel2.com/eol/> |
+
+##### Additional Experience
+
+|           |                                                              |
+|:----------|:-------------------------------------------------------------|
+| 2012–2016 | Web Designer & Office Assistant, Political Science, UH Mānoa |
+| 2008–2010 | Web Developer/Designer, Office of the Chancellor, UH Mānoa   |
+
+### Professional Memberships
+
+|       |                                            |
+|:------|:-------------------------------------------|
+| 2018– | Association for Laboratory Phonology       |
+| 2018– | International Phonetic Association         |
+| 2016– | Acoustical Society of America              |
+| 2016– | Hawaiʻi Chapter, Graduate Women in Science |
+| 2013– | Linguistic Society of America              |
+| 2013– | Linguistic Society of Hawaiʻi              |
+
+Updated April 5, 2022
+
+# Embedded PDF
+
+This style may be easier and cleaner. Visit <https://github.com/jmgirard/embedpdf> to learn how to embed PDFs to your site.
+
+{{< pdf media/camp_cv_public_092724.pdf width=80% height=850 >}}

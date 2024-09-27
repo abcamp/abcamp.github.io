@@ -1,0 +1,51 @@
+---
+title: "CS201 Website Assignment (Fall 2024)"
+toc: true
+draft: true
+---
+
+## Instructions & Requirements
+
+Congratulations on making a website using R, Quarto, and GitHub! Consider this an exciting first step toward building your public-facing professional brand, showcasing your skills, and connecting with others in your field.
+
+### Due Date
+
+This project counts as Homework Assignment #3. It will be due on **Sunday, October 6 at 11:59 pm**.
+
+### How to Submit
+
+There are two steps to submitting this project.
+
+1.  Email your website link to me. It should look something like \<yourgithubname\>.github.io.
+
+2.  Add your website to your GitHub profile.
+
+![](media/update_profile.png){fig-align="left" width="40%"}
+
+### Required Components
+
+This is your website, so make to look how you want, and present whatever information you'd like to share online! There are only a few requirements for the assignment:
+
+1.  The website must be live and functional.
+
+2.  There must be an index page
+
+3.  There must be three pages minimum, including index. What the other two pages include is up to you. All pages must be properly linked in the site navigation **AND** include [*SOME*]{.underline} relevant content (i.e., no empty pages).
+
+4.  There must be at least one media item somewhere (picture, video, embedded pdf, etc.)
+
+5.  There must be at least one customization somewhere (theme/template, colors, TOC, etc.)
+
+## Resources
+
+There are many resources at your disposal. Use 'em all, even those not listed here!
+
+1.  [Creating your personal website using Quarto](https://ucsb-meds.github.io/creating-quarto-websites/){target="_blank"} (tutorial by Sam Csik)
+2.  [Built-in templates](https://quarto.org/docs/websites/website-about.html#templates){target="_blank"}
+3.  [Bootswatch themes](https://bootswatch.com){target="_blank"}
+4.  [Bootstrap icons](https://icons.getbootstrap.com){target="_blank"}
+5.  [Quarto Website general documentation](https://quarto.org/docs/websites/){target="_blank"}
+6.  [Customizing Quarto Websites](https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide){target="_blank"} (slides by Sam Csik)
+7.  [Resume Guide](https://ccd.rice.edu/sites/g/files/bxs3401/files/inline-files/FreshmanResumeGuide.pdf){target="_blank"} (Rice University)
+8.  [embedpdf](https://github.com/jmgirard/embedpdf){target="_blank"}
+9.  Check out what your classmates are doing and look at their code!
