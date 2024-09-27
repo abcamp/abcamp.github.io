@@ -1,5 +1,6 @@
 ---
 title: "Exit Pass: Friday, Sep 27"
+toc: false
 ---
 
 ## What do you want to do in class on Monday?
