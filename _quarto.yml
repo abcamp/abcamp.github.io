@@ -13,7 +13,7 @@ website:
       - about.qmd
       - research.qmd
       - teaching.qmd
-      #- cv.qmd
+      - cv.qmd
       - href: assignment.qmd
         text: Assignment
       - icon: github
