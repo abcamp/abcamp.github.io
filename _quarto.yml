@@ -18,6 +18,7 @@ website:
         text: Assignment
       - icon: github
         href: https://github.com/abcamp
+        target: blank
     background: secondary
     search: true
     pinned: true
