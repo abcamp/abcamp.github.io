@@ -17,7 +17,7 @@ This project counts as Homework Assignment #3. It will be due on **Sunday, Octob
 
 There are two steps to submitting this project.
 
-1.  Email your website link to me. It should look something like \<yourgithubname\>.github.io.
+1.  Email your website link to me at `amber.camp@chaminade.edu`. It should look something like `<yourgithubname>.github.io`.
 
 2.  Add your website to your GitHub profile.
 
