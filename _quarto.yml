@@ -19,7 +19,7 @@ website:
       - icon: github
         href: https://github.com/abcamp
         target: blank
-    background: secondary
+    background: info
     search: true
     pinned: true
   page-footer:
