@@ -14,7 +14,7 @@ about:
       href: http://linkedin.com/in/amber-camp
       target: blank
     - icon: instagram
-      href: https://www.youtube.com/watch?v=dQw4w9WgXcQ
+      href: https://www.yout-ube.com/watch?v=dQw4w9WgXcQ
       target: blank
     - text: Email
       icon: envelope
