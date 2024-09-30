@@ -2,6 +2,7 @@
 title: "CS201 Website Assignment (Fall 2024)"
 toc: true
 draft: true
+date: 09/30/24
 ---
 
 ## Instructions & Requirements
@@ -49,3 +50,5 @@ There are many resources at your disposal. Use 'em all, even those not listed he
 7.  [Resume Guide](https://ccd.rice.edu/sites/g/files/bxs3401/files/inline-files/FreshmanResumeGuide.pdf){target="_blank"} (Rice University)
 8.  [embedpdf](https://github.com/jmgirard/embedpdf){target="_blank"}
 9.  Check out what your classmates are doing and look at their code!
+
+For some personal branding guidance, have a look at these UCSB course materials, again from Sam Csik. Pay special attention to "[Create your own personal branding guide" under "Pre-class Prep."](https://ucsb-meds.github.io/EDS-296-DS-portfolios/course-materials/week2-customizing-websites.html#pre-class-prep){target="\"_blank"}
