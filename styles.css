@@ -1,4 +1,10 @@
 /* css styles */
-p, h1, li {
-  color: cadetblue;
+
+ .navbar {
+   background-color: pink;
+ }
+ 
+ * { 
+  color: olivedrab;
+  font: constantia;
 }
