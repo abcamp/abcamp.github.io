@@ -1,7 +1,7 @@
 ---
 title: "CS201 Website Assignment (Fall 2024)"
 toc: true
-draft: true
+draft: false
 date: 09/30/24
 ---
 
