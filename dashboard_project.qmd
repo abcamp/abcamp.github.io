@@ -42,6 +42,8 @@ You can be creative with what goes onto your dashboard, within the guidelines be
 
 9.  **Extra credit** if a custom theme is applied and plots are of similar styling (+3 pts)
 
+Note that only one page is required, but you can do multiple pages if you like that layout better.
+
 ### Where to start?
 
 Start with the class activity from Monday, November 18. In that activity, you made a new repository for your dashboard, linked the project to RStudio, created a super simple dashboard, and pushed it to GitHub so that the dashboard is live on your individual website.
