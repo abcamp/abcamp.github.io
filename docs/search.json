@@ -102,7 +102,7 @@
     "href": "dashboard_project.html#resources",
     "title": "CS201 Final Dashboard Project (Fall 2024)",
     "section": "Resources",
-    "text": "Resources\nThere are many resources at your disposal. Use ’em all, even those not listed here!\n\nCreating your personal website using Quarto (tutorial by Sam Csik)\nBuilt-in templates\nBootswatch themes\nBootstrap icons\nQuarto Website general documentation\nCustomizing Quarto Websites (slides by Sam Csik)\nResume Guide (Rice University)\nembedpdf\nCheck out what your classmates are doing and look at their code!\n\nFor some personal branding guidance, have a look at these UCSB course materials, again from Sam Csik. Pay special attention to “Create your own personal branding guide” under “Pre-class Prep.”"
+    "text": "Resources\n\nflexdashboard website\nUsing flexdashboard\nSample flexdashboard layouts"
   },
   {
     "objectID": "dashboard_project.html#need-help",

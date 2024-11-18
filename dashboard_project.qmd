@@ -1,7 +1,7 @@
 ---
 title: "CS201 Final Dashboard Project (Fall 2024)"
 author: "Amber Camp"
-date: 11/17/24
+date: 11/18/24
 ---
 
 ## Instructions & Requirements
@@ -51,6 +51,14 @@ Start with the class activity from Monday, November 18. In that activity, you ma
 Part of the challenge of this final project is that you will need to figure out how/where to save and call upon your data, what scripting you'll need for your visuals, and how to make everything look presentable and professional.
 
 You are welcome to run early versions by me before submitting your final project for a grade.
+
+## Resources
+
+-   [flexdashboard website](https://pkgs.rstudio.com/flexdashboard/)
+
+-   [Using flexdashboard](https://rstudio.github.io/flexdashboard/articles/using.html)
+
+-   [Sample flexdashboard layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html)
 
 ## Need help?
 
