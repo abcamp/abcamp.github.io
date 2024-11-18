@@ -16,6 +16,8 @@ website:
       - cv.qmd
       - href: assignment.qmd
         text: Assignment
+      - href: dashboard_project.qmd
+        text: Final Project
       - icon: github
         href: https://github.com/abcamp
         target: blank
