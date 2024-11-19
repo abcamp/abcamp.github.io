@@ -30,11 +30,11 @@ You can be creative with what goes onto your dashboard, within the guidelines be
 
 3.  A clear layout
 
-4.  Three minimum visuals. They should either be different plot types or show different variables
+4.  Three minimum visuals. They should either be different plot types or show different variables. (A data table doesn't count)
 
 5.  At least one interactive visual (plotly/girafe style, not shiny style)
 
-6.  Source code is visible
+6.  Source code is visible/embedded
 
 7.  Navigation includes a link back to your website
 
@@ -42,13 +42,15 @@ You can be creative with what goes onto your dashboard, within the guidelines be
 
 9.  **Extra credit** if a custom theme is applied and plots are of similar styling (+3 pts)
 
+10. **Extra credit** if there is a link on your personal website to you dashboard (+3 pts, show me where the link is)
+
 Note that only one page is required, but you can do multiple pages if you like that layout better.
 
 ### Where to start?
 
 Start with the class activity from Monday, November 18. In that activity, you made a new repository for your dashboard, linked the project to RStudio, created a super simple dashboard, and pushed it to GitHub so that the dashboard is live on your individual website.
 
-Part of the challenge of this final project is that you will need to figure out how/where to save and call upon your data, what scripting you'll need for your visuals, and how to make everything look presentable and professional.
+Part of the challenge of this final project is that you will need to figure out how/where to save and call upon your data, what scripting you'll need for your visuals, and how to make everything look presentable and professional. Don't forget that your dashboard should be named `index.Rmd`!
 
 You are welcome to run early versions by me before submitting your final project for a grade.
 
