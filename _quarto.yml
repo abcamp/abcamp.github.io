@@ -15,9 +15,9 @@ website:
       - teaching.qmd
       - cv.qmd
       - href: assignment.qmd
-        text: Assignment
+        text: CS201 Assignment
       - href: dashboard_project.qmd
-        text: Final Project
+        text: CS201 Final Project
       - icon: github
         href: https://github.com/abcamp
         target: blank
