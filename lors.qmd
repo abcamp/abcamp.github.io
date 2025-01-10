@@ -1,0 +1,67 @@
+---
+title: "CS201 Final Dashboard Project (Fall 2024)"
+author: "Amber Camp"
+date: 11/18/24
+---
+
+## Instructions & Requirements
+
+You have learned several new skills over the course of this semester–now it is time to showcase a few of those skills in a final dashboard project using `flexdashboard`!
+
+### Due Date
+
+This project will be due on **Friday, December 6 at 11:59 pm**. Extensions may be granted in extenuating circumstances if you [**arrange with me in advance**]{.underline}.
+
+### How to Submit
+
+There are two steps to submitting this project.
+
+1.  Push your final dashboard assignment to GitHub.
+
+2.  Upload your dashboard link to Canvas. It should look something like `<yourname>.github.io/<yourdashboard>`.
+
+### Requirements
+
+You can be creative with what goes onto your dashboard, within the guidelines below. What story do you want to tell with your data? What kinds of plots or maps will you include?
+
+1.  Written information about your data and the questions you are looking into
+
+2.  Credit to where the data came from
+
+3.  A clear layout
+
+4.  Three minimum visuals. They should either be different plot types or show different variables. (A data table doesn't count)
+
+5.  At least one interactive visual (plotly/girafe style, not shiny style)
+
+6.  Source code is visible/embedded
+
+7.  Navigation includes a link back to your website
+
+8.  Everything should look polished and professional
+
+9.  **Extra credit** if a custom theme is applied and plots are of similar styling (+3 pts)
+
+10. **Extra credit** if there is a link on your personal website to you dashboard (+3 pts, show me where the link is)
+
+Note that only one page is required, but you can do multiple pages if you like that layout better.
+
+### Where to start?
+
+Start with the class activity from Monday, November 18. In that activity, you made a new repository for your dashboard, linked the project to RStudio, created a super simple dashboard, and pushed it to GitHub so that the dashboard is live on your individual website.
+
+Part of the challenge of this final project is that you will need to figure out how/where to save and call upon your data, what scripting you'll need for your visuals, and how to make everything look presentable and professional. Don't forget that your dashboard should be named `index.Rmd`!
+
+You are welcome to run early versions by me before submitting your final project for a grade.
+
+## Resources
+
+-   [flexdashboard website](https://pkgs.rstudio.com/flexdashboard/)
+
+-   [Using flexdashboard](https://rstudio.github.io/flexdashboard/articles/using.html)
+
+-   [Sample flexdashboard layouts](https://pkgs.rstudio.com/flexdashboard/articles/layouts.html)
+
+## Need help?
+
+Get in touch with me! We are no longer meeting in class after this week, but I am still here to help. Send me a message at `amber.camp@chaminade.edu`, no matter how small of a question you have. We can arrange to meet in person or on Zoom as well. Have fun with this project!

@@ -17,7 +17,9 @@ website:
       - href: assignment.qmd
         text: CS201 Assignment
       - href: dashboard_project.qmd
-        text: CS201 Final Project
+        text: CS201 Final Project (Fall 2024)
+      - lors.qmd
+      - contact.qmd
       - icon: github
         href: https://github.com/abcamp
         target: blank

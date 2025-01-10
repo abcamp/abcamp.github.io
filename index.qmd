@@ -23,6 +23,6 @@ about:
 
 I am an Assistant Professor in [Data Science, Analytics, and Visualization](https://chaminade.edu/nsm/data-science/){target="_blank"} at [Chaminade University of Honolulu](https://chaminade.edu){target="blank_"}. I specialize in research methods, experimental design, and analysis.
 
-My background is in linguistics and while I enjoy all areas of linguistics, my primary interests lie in laboratory phonology, phonetics, psycholinguistics, and first and second language acquisition. I am particularly interested in how we use suprasegmental or prosodic cues in real-time word and sentence processing.
+My background is in linguistics and while I enjoy all areas of the field, my primary interests lie in laboratory phonology, phonetics, psycholinguistics, and first and second language acquisition. I am particularly interested in how we use suprasegmental or prosodic cues in real-time word and sentence processing and in NLP and AI applications.
 
-This site is used both as my professional website and also as a testing ground for class demos and projects involving GitHub Pages.
+This site serves as both my professional website and a sandbox for class demos and GitHub Pages projects. You might come across some works-in-progress :)
