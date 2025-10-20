@@ -1,7 +1,7 @@
 ---
-title: "CS201 Website Assignment (Fall 2024)"
+title: "CS201 Website Assignment (Fall 2025)"
 toc: true
-date: 09/30/24
+date: 10/20/24
 ---
 
 ## Instructions & Requirements
@@ -10,7 +10,7 @@ Congratulations on making a website using R, Quarto, and GitHub! Consider this a
 
 ### Due Date
 
-This project counts as Homework Assignment #3. It will be due on **Sunday, October 6 at 11:59 pm**.
+This project counts as Homework Assignment #7. It will be due on **Monday, October 27 at 11:59 pm**.
 
 ### How to Submit
 
@@ -28,7 +28,7 @@ This is your website, so make to look how you want, and present whatever informa
 
 1.  The website must be live and functional.
 
-2.  There must be an index page
+2.  There must be an **index** page
 
 3.  There must be three pages minimum, including index. What the other two pages include is up to you. All pages must be properly linked in the site navigation **AND** include [*SOME*]{.underline} relevant content (i.e., no empty pages).
 
