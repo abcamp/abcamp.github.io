@@ -1,6 +1,6 @@
 ---
 title: "Amber Camp"
-image: media/img.heic
+image: media/img.jpg
 toc: false
 about: 
   template: trestles
