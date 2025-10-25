@@ -1,7 +1,7 @@
 ---
 title: "CS201 Website Assignment (Fall 2025)"
 toc: true
-date: 10/20/24
+date: 10/20/25
 ---
 
 ## Instructions & Requirements
