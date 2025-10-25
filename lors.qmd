@@ -1,5 +1,6 @@
 ---
 title: "Recommendation Letters"
+toc: false
 ---
 
 I'm happy to write letters of recommendation for students applying to internships, jobs, scholarships, graduate programs, and anything else! I spend about 1-3 hours crafting each letter to support your success, and it's one of my favorite parts of mentoring.
