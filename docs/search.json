@@ -149,21 +149,21 @@
   {
     "objectID": "assignment.html",
     "href": "assignment.html",
-    "title": "CS201 Website Assignment (Fall 2025)",
+    "title": "CS-201 Website Assignment (Fall 2025)",
     "section": "",
     "text": "Congratulations on making a website using R, Quarto, and GitHub! Consider this an exciting first step toward building your public-facing professional brand, showcasing your skills, and connecting with others in your field.\n\n\nThis project counts as Homework Assignment #7. It will be due on TBA.\n\n\n\nThere are two steps to submitting this project.\n\nEmail your website link to me at amber.camp@chaminade.edu. It should look something like &lt;yourgithubname&gt;.github.io.\nAdd your website to your GitHub profile.\n\n\n\n\n\n\n\n\n\nThis is your website, so make to look how you want, and present whatever information you’d like to share online! There are only a few requirements for the assignment:\n\nThe website must be live and functional.\nThere must be an index page\nThere must be three pages minimum, including index. What the other two pages include is up to you. All pages must be properly linked in the site navigation AND include SOME relevant content (i.e., no empty pages).\nThere must be at least one media item somewhere (picture, video, embedded pdf, etc.)\nThere must be at least one customization somewhere (theme/template, colors, TOC, etc.)"
   },
   {
     "objectID": "assignment.html#instructions-requirements",
     "href": "assignment.html#instructions-requirements",
-    "title": "CS201 Website Assignment (Fall 2025)",
+    "title": "CS-201 Website Assignment (Fall 2025)",
     "section": "",
     "text": "Congratulations on making a website using R, Quarto, and GitHub! Consider this an exciting first step toward building your public-facing professional brand, showcasing your skills, and connecting with others in your field.\n\n\nThis project counts as Homework Assignment #7. It will be due on TBA.\n\n\n\nThere are two steps to submitting this project.\n\nEmail your website link to me at amber.camp@chaminade.edu. It should look something like &lt;yourgithubname&gt;.github.io.\nAdd your website to your GitHub profile.\n\n\n\n\n\n\n\n\n\nThis is your website, so make to look how you want, and present whatever information you’d like to share online! There are only a few requirements for the assignment:\n\nThe website must be live and functional.\nThere must be an index page\nThere must be three pages minimum, including index. What the other two pages include is up to you. All pages must be properly linked in the site navigation AND include SOME relevant content (i.e., no empty pages).\nThere must be at least one media item somewhere (picture, video, embedded pdf, etc.)\nThere must be at least one customization somewhere (theme/template, colors, TOC, etc.)"
   },
   {
     "objectID": "assignment.html#resources",
     "href": "assignment.html#resources",
-    "title": "CS201 Website Assignment (Fall 2025)",
+    "title": "CS-201 Website Assignment (Fall 2025)",
     "section": "Resources",
     "text": "Resources\nThere are many resources at your disposal. Use ’em all, even those not listed here!\n\nCreating your personal website using Quarto (tutorial by Sam Csik)\nBuilt-in templates\nBootswatch themes\nBootstrap icons\nQuarto Website general documentation\nCustomizing Quarto Websites (slides by Sam Csik)\nResume Guide (Rice University)\nembedpdf\nCheck out what your classmates are doing and look at their code!\n\nFor some personal branding guidance, have a look at these UCSB course materials, again from Sam Csik. Pay special attention to “Create your own personal branding guide” under “Pre-class Prep.”"
   },

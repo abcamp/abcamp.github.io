@@ -1,5 +1,5 @@
 ---
-title: "CS201 Website Assignment (Fall 2025)"
+title: "CS-201 Website Assignment (Fall 2025)"
 toc: true
 date: 10/20/25
 ---

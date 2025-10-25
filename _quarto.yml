@@ -16,7 +16,7 @@ website:
       - href: lors.qmd
         text: Rec Letters
       - href: assignment.qmd
-        text: CS201 Assignment
+        text: CS-201 Assignment
       - contact.qmd
       - icon: github
         href: https://github.com/abcamp
