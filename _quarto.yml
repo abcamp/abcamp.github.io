@@ -12,11 +12,11 @@ website:
       - research.qmd
       - teaching.qmd
       - cv.qmd
-      - href: assignment.qmd
-        text: CS201 Assignment
       - advisees.qmd
       - href: lors.qmd
         text: Rec Letters
+      - href: assignment.qmd
+        text: CS201 Assignment
       - contact.qmd
       - icon: github
         href: https://github.com/abcamp
