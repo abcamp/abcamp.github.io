@@ -1,0 +1,43 @@
+---
+title: "Advisees"
+---
+
+I work closely with students on community-engaged, applied, and interdisciplinary research in data science. My advising emphasizes ethical reasoning and technical skill-building.
+
+## Current Advisees
+
+The following students are currently completing senior capstone projects or directed research under my guidance:
+
+-   **Johnny Bae**
+-   **Wilneris Carrion-Colon**
+-   **Lela Gi**
+-   **Alex Greb**
+-   **Lydia Hefel**
+-   **Ashley Holen**
+-   **Grace Stewart**
+
+## Past Advisees
+
+-   **Cade Garcia** – *Bacteria and Tide Levels at the Magic Island Canoe Launch (2021-2024)*
+
+## Research Assistants
+
+I occasionally work with research assistants on special projects.
+
+-   **Lydia Hefel & Logan Lasell** – *Spring 2024*
+    -   Extracting and processing vowel data using Montreal Forced Aligner, Python, and Praat
+    -   Contributing to the LanguageFinder project
+
+## Group & Program Mentoring
+
+-   **Advanced Computing Student Challenge (ACSC)**\
+    *Texas Advanced Computing Center, Summer 2025 (co-located with PEARC25)*\
+    Mentored an undergraduate team on a week-long data science challenge involving high-performance computing, civic data, and exploratory and predictive modeling
+
+## How to Work With Me
+
+Many advising collaborations begin through coursework, especially in DS-495 (Directed Research). I'm especially enthusiastic about working with students who are curious, analytic, and committed to grounding their work in both rigorous data methods and strong theoretical frameworks.
+
+While I support interdisciplinary work broadly, I have a particular affinity for projects rooted in the social sciences and linguistics, and I’m especially excited about community-engaged approaches.
+
+To explore potential advising or collaboration, feel free to email me at [amber.camp\@chaminade.edu](mailto:amber.camp@chaminade.edu).

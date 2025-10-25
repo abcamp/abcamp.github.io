@@ -10,7 +10,7 @@ Congratulations on making a website using R, Quarto, and GitHub! Consider this a
 
 ### Due Date
 
-This project counts as Homework Assignment #7. It will be due on **Monday, October 27 at 11:59 pm**.
+This project counts as Homework Assignment #7. It will be due on **TBA**.
 
 ### How to Submit
 

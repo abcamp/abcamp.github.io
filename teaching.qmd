@@ -2,7 +2,79 @@
 title: "Teaching"
 ---
 
-### Linguistics 420: Morphology (Spring 2021)
+Sample syllabi for Chaminade courses available through the [syllabus repository](https://syllabus.chaminade.edu){target="blank"}.
+
+### Computer Science 201: Programming in R
+
+##### Chaminade University of Honolulu
+
+This course is an introduction to R that will cover the R topics and language. This course will include lectures, discussions, assignments, hands-on experiences with real data, and a project that could be used for future classes and investigation. This course will prepare students for the next data science courses and practice by providing students with knowledge, techniques, skills, and a data science mindset. Students in this course will learn the data science process of collecting, storing, and curating data; ingestion and wrangling data; R language; R used for database systems; analyzing data using R; visualizations; and reporting the results of the analysis.
+
+------------------------------------------------------------------------
+
+### Computer Science 301: Operating Systems
+
+##### Chaminade University of Honolulu
+
+This course will introduce operating systems concepts, techniques, strategies, hardware and software, management, and virtualization. Students in this course will learn process management, memory management, I/O device management, file systems, distributed systems, security, and virtualization.
+
+Prerequisites: EN-102 and COM-101
+
+------------------------------------------------------------------------
+
+### Data Science 300: Ethics Seminar
+
+##### Chaminade University of Honolulu
+
+Seminar course following on and further developing concepts and skills in DS 200. Students will perform a service project in data ethics.
+
+In this course, we will expand upon data ethics concepts discussed in DS 200, supplement discussions with case studies, and reinforce understanding with practical assignments.
+
+Prerequisite: DS-200
+
+------------------------------------------------------------------------
+
+### Data Science 301: Community-Engaged Computing
+
+##### Chaminade University of Honolulu
+
+Lecture course addressing the use of data analytics, visualization and visualization for evidence-based decision support across diverse organizations, with special reference to the potential impact of data-science mediated decision support on community, grassroots and social advocacy groups. Students will design community impact strategies based on stakeholder engagement, develop tools such as dashboards and story boards using relevant data sets and present outputs to the community constituents for the course.
+
+Prerequisites: EN-102, COM-101 & DS-200
+
+------------------------------------------------------------------------
+
+### Data Science 303: Modeling for Prediction
+
+##### Chaminade University of Honolulu
+
+This course provides an overview of the modeling and prediction process, including definition of goals for prediction, effective data preparation, algorithms, modeling methods and verification/validation. Students will learn iterative refinement of models based on a project in their special interest area.
+
+Prerequisites: EN 102, COM 101, CS 201 or CS 202, MA 210, and MA 331
+
+------------------------------------------------------------------------
+
+### Data Science 420: Foundations of Geospatial Thinking
+
+##### Chaminade University of Honolulu
+
+This course introduces geographic perspectives that are foundational to Geographic Information Systems, including: human-environment interactions, spatial thinking, and systems thinking. Students will learn about the power of maps as communicative tools, and the ethical issues in the field of cartography. Key theoretical topics will include the spatial side of: systems, processes, distributions, clusters, movement, and networks with special attention to how cultural, biological, and earth systems interact. Students will interact with existing geographic data portals to explore topics in a region of interest to them. No previous experience in geography or data science is needed. This course will prepare students for any GIS course with the ability to think and communicate from geographic perspectives.
+
+Prerequisites: EN 102 and COM 101.
+
+------------------------------------------------------------------------
+
+### Data Science 495: Data Science Directed Research
+
+##### Chaminade University of Honolulu
+
+This course is a research method and directed research course in data science. The course will include lectures, discussions, assignments used for the directed research project, and a semester long directed research project. The goal of the course has two parts: 1) students will be provided tools and techniques that will assist on assessing research designs and strategies to develop their data science directed research project and 2) students will execute and complete their data science directed research project. Students in this course will learn the different research methodologies; assess literature for a literature review; develop a research question or problem to analyze; learn data collection methods; learn sampling approaches; design and develop a proposal; apply knowledge, skills, and abilities from past data science courses; analyze and evaluate data; and produce a directed research product and communicate the project in front technical and non-technical audience.
+
+Prerequisites: EN-102, COM-101, DS-301 & MA-331
+
+------------------------------------------------------------------------
+
+### Linguistics 420: Morphology
 
 ##### University of Hawaiʻi at Mānoa
 
@@ -15,7 +87,7 @@ By the end of the course, students will be able to:
 -   examine and compare morphological phenomena from a typological stance
 -   conduct and present morphological analyses of linguistic data
 
-Familiarity with basic linguistics, including basic syntactic and phonological terminology, is assumed. The **prerequisite for this course is Ling 320 (General Linguistics)**, but Ling 421 (Introduction to Phonological Analysis) and Ling 422 (Introduction to Grammatical Analysis) are recommended. Students who take Ling 420 are typically early graduate students or advanced undergraduates.
+Familiarity with basic linguistics, including basic syntactic and phonological terminology, is assumed. The **prerequisite for this course is Ling 320 (General Linguistics)**, but Ling 421 (Introduction to Phonological Analysis) and Ling 422 (Introduction to Grammatical Analysis) are recommended. Students who take Ling 420 are typically early graduate students or advanced undergraduates.
 
 [Sample Ling 420 syllabus (Spring 2021)](https://ambercamp.com/wp-content/uploads/2021/01/ling-420-syllabus-spring-2021.pdf){target="_blank"}
 
@@ -25,7 +97,7 @@ Familiarity with basic linguistics, including basic syntactic and phonological t
 
 ##### University of Hawaiʻi at Mānoa
 
-Ling 102 is a 3-credit, 100-level non-technical introduction to linguistics, the scientific study of language. We talk about what makes language language and how students can begin to describe and analyze the languages and dialects spoken and heard around them. Major goals of this course include fostering an appreciation for linguistic and cultural diversity, and encouraging critical thinking through making connections between real-world observations, life experiences, and classroom knowledge. The course includes a Writing-Intensive focus, and includes projects and assignments designed to help students develop tools to use in future classes and employment: researching, writing, editing, working in groups, and clearly communicating ideas.
+Ling 102 is a 3-credit, 100-level non-technical introduction to linguistics, the scientific study of language. We talk about what makes language language and how students can begin to describe and analyze the languages and dialects spoken and heard around them. Major goals of this course include fostering an appreciation for linguistic and cultural diversity, and encouraging critical thinking through making connections between real-world observations, life experiences, and classroom knowledge. The course includes a Writing-Intensive focus, and includes projects and assignments designed to help students develop tools to use in future classes and employment: researching, writing, editing, working in groups, and clearly communicating ideas.
 
 Some of the things students learn to do in this class include:
 

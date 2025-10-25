@@ -1,7 +1,5 @@
 ---
 title: "Contact"
-# author: "Amber Camp"
-# date: 1/9/25
 toc: false
 ---
 
@@ -11,8 +9,8 @@ Office: Data Science Center, Tredtin Hall, Chaminade University of Honolulu
 
 ## Office Hours
 
-Tuesdays 12:30-3:30\
-Wednesdays 12:30-3:30\
-Fridays 12:30-2:30, and by appointment
+Mondays 2:30-4:30\
+Tuesdays 1:30-2:30\
+Wednesday 9:30-11:30, and by appointment
 
 **Note**: Students may book office hours using the link provided in course syllabi and my email signature. Otherwise, office hours are drop-in.
