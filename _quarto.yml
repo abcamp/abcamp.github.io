@@ -12,7 +12,6 @@ website:
       - research.qmd
       - teaching.qmd
       - cv.qmd
-      - advisees.qmd
       - href: lors.qmd
         text: Rec Letters
       - href: assignment.qmd
