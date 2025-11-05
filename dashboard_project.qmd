@@ -1,6 +1,5 @@
 ---
 title: "CS201 Final Dashboard Project (Fall 2025)"
-author: "Amber Camp"
 date: 11/5/25
 ---
 
