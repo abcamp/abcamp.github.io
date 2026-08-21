@@ -1,6 +1,6 @@
 ---
 title: "Amber Camp"
-image: media/acsc-072325.jpeg
+image: media/wug.jpg
 toc: false
 about: 
   template: trestles

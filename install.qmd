@@ -1,0 +1,143 @@
+---
+title: "CS-201: R/RStudio Installation Guide"
+date: 8/21/26
+---
+
+## Overview
+
+To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.
+
+### 1. Download and install R
+
+- Visit this website: <https://cloud.r-project.org>
+
+- Follow instructions for your own operating system. Be sure to get the **latest release (2026-06-24, Happy Hop)**, as of this document.
+
+- Remember to both **download** and **install**
+
+### 2. Download and install RStudio
+
+- Visit this website: <https://docs.posit.co/ide/user/#direct-downloads-open-source>
+
+- Follow instructions for your own operating system. Be sure to get the **latest release (2026.08, Yellow Yarrow)**, as of this document.
+
+- Remember to both **download** and **install**
+
+### 3. Create a GitHub Account
+
+- [Visit Github](https://github.com/) and sign up for an account!
+
+- Make your github profile more personal by [creating a README file](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
+
+### 4. Install and configure `git`
+
+You might actually already have it! Let's check for it. Run the below commands by typing them in as written and then pressing Enter.
+
+***Mac users***
+
+- You will already have `git` on your device, and you can check for it by running the following command in your terminal. For this setup, I recommend opening RStudio and visiting the Terminal tab.\
+  \
+  `which git`
+
+- If you see a file path, that means you have `git`! If you don't get a response, [download and intall `git` from Xcode](https://developer.apple.com/xcode/).
+
+***Windows users***
+
+- Devices running Windows don't always come with `git`. Check for it by opening RStudio, navigating to the Terminal tab, and running the following command:\
+  \
+  `where git`
+
+<!-- -->
+
+- Similar to Mac users, if you get a file path in response, you already have `git`. If not, then you will need to [download and install it using these instructions](https://git-scm.com/install/windows).
+
+#### **Configure `git`**
+
+- In RStudio, open the Terminal. Run the following commands. Be sure to **replace** **the username** (keep the quotation marks!) \*\*and email with your own username and email associated with your GitHub account.\
+
+  `git config --global user.name "Jane Doe" git config --global user.email janedoe@example.com`
+
+- Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:\
+  \
+  `git config --list --global`
+
+### 5. Link R Studio & Github
+
+#### **Get and store your GitHub personal access token (PAT)**
+
+Now you are almost ready to link your GitHub to RStudio.
+
+**First:** What even is a personal access token? From GitHub’s documentation:
+
+> Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the [GitHub API](https://docs.github.com/en/rest/overview/other-authentication-methods#via-oauth-and-personal-access-tokens) or the [command line](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-token-on-the-command-line).
+
+In order to push your work (files, scripts, etc.) from the device you are working on to GitHub, you’ll need your PAT.
+
+- Install the `usethis` package in `R` by running the following in the [**RStudio Console**]{.underline}:\
+  \
+  `install.packages("usethis")`
+- A lot of text will show up in your Console. Don't panic! Wait for it to stop, and as long as you see something like the below, you are all set:
+
+```         
+The downloaded binary packages are in
+    /var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages
+>
+```
+
+- Then, run the following in the RStudio Console:\
+  \
+  `usethis::create_github_token()`
+
+- Your browser will launch and take you to GitHub. Enter your GitHub password if prompted.
+
+- Then, you’ll land on a screen titled **New personal access token**.
+
+  - In the **Note** field, you will see some autopopulated text, like "DESCRIBE THE TOKEN'S USE CASE". Replace that text with something like `laptop` or `my_schoolwork`
+
+  - Under **Expiration**, you can select an expiration date that feels right to you. My recommendation for this class? Either 'No expiration' or set a custom date for after the end of the semester
+
+    - If you set an expiration date sooner than the end of the semester, you will find yourself having to do this linking process again soon!
+
+- There is no need to change anything else on the screen—just scroll to the bottom and click the green 'Generate token' button.
+
+- **Copy the generated PAT and keep track of it until this process is over!**
+
+- In your RStudio Console run:\
+  \
+  `gitcreds::gitcreds_set()`
+
+- Paste your PAT and press Enter to run.\
+  \
+  Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)
+
+#### Final steps
+
+- In the RStudio Console, run:\
+  \
+  `usethis::git_sitrep()`
+
+- You should get something like the below in return. (Yours might be longer—I've truncated!)
+
+```         
+> usethis::git_sitrep()
+
+── Git global (user) 
+• Name: "abcamp"
+• Email: "acamp@hawaii.edu"
+• Global (user-level) gitignore file: ~/.gitignore
+• Vaccinated: FALSE
+ℹ See `usethis::git_vaccinate()` to learn more.
+• Default Git protocol: "https"
+```
+
+- Finally, let's get you vaccinated and on `main`—I'll explain these in class. Run the following:\
+  \
+  `usethis::git_vaccinate()`
+
+  `usethis::use_git_config(init.defaultBranch = "main")`
+
+- You should be all set now! You can run `usethis::git_sitrep()` once more to view your changes:\
+  \
+  `usethis::git_sitrep()`
+
+Now you are ready for class.

@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="dcterms.date" content="2026-08-21">
 
-<title>Amber Camp</title>
+<title>CS-201: R/RStudio Installation Guide</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -34,6 +35,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-bc185b5c5bdbcb35c2eb49d8a876ef70.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -77,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -252,7 +254,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -300,48 +302,185 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
+  <ul class="collapse">
+  <li><a href="#download-and-install-r" id="toc-download-and-install-r" class="nav-link" data-scroll-target="#download-and-install-r">1. Download and install R</a></li>
+  <li><a href="#download-and-install-rstudio" id="toc-download-and-install-rstudio" class="nav-link" data-scroll-target="#download-and-install-rstudio">2. Download and install RStudio</a></li>
+  <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">3. Create a GitHub Account</a></li>
+  <li><a href="#install-and-configure-git" id="toc-install-and-configure-git" class="nav-link" data-scroll-target="#install-and-configure-git">4. Install and configure <code>git</code></a></li>
+  <li><a href="#link-r-studio-github" id="toc-link-r-studio-github" class="nav-link" data-scroll-target="#link-r-studio-github">5. Link R Studio &amp; Github</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<div class="quarto-about-trestles">
-  <div class="about-entity">
-    <img src="media/wug.jpg" class="about-image
-  rounded " style="width: 10em;">
+<main class="content" id="quarto-document-content">
+
+
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Amber Camp</h1>
+<h1 class="title">CS-201: R/RStudio Installation Guide</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">August 21, 2026</p>
+    </div>
   </div>
+  
+    
+  </div>
+  
+
+
 </header>
-    <div class="about-links">
-  <a href="https://github.com/abcamp" class="about-link" rel="" target="blank">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="http://linkedin.com/in/amber-camp" class="about-link" rel="" target="blank">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://www.yout-ube.com/watch?v=dQw4w9WgXcQ" class="about-link" rel="" target="blank">
-    <i class="bi bi-instagram"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="mailto:amber.camp@chaminade.edu" class="about-link" rel="" target="">
-    <i class="bi bi-envelope"></i>
-     <span class="about-link-text">Email</span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><main class="content" id="quarto-document-content">
-
-<p>I am an Assistant Professor in <a href="https://chaminade.edu/nsm/data-science/" target="_blank">Data Science, Analytics, and Visualization</a> at <a href="https://chaminade.edu" target="blank_">Chaminade University of Honolulu</a>. I specialize in research methods, experimental design, and analytics.</p>
-<p>My background is in linguistics and while I enjoy all areas of the field, my primary interests lie in laboratory phonology, phonetics, psycholinguistics, and first and second language acquisition. I am particularly interested in how we use suprasegmental or prosodic cues in real-time word and sentence processing, and in NLP and AI applications.</p>
-<p>This site serves as both my professional website and as a sandbox for class demos and GitHub Pages projects. You might come across some works-in-progress :)</p>
 
 
-</main></div>
-</div>
- <!-- /main -->
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.</p>
+<section id="download-and-install-r" class="level3">
+<h3 class="anchored" data-anchor-id="download-and-install-r">1. Download and install R</h3>
+<ul>
+<li><p>Visit this website: <a href="https://cloud.r-project.org" class="uri">https://cloud.r-project.org</a></p></li>
+<li><p>Follow instructions for your own operating system. Be sure to get the <strong>latest release (2026-06-24, Happy Hop)</strong>, as of this document.</p></li>
+<li><p>Remember to both <strong>download</strong> and <strong>install</strong></p></li>
+</ul>
+</section>
+<section id="download-and-install-rstudio" class="level3">
+<h3 class="anchored" data-anchor-id="download-and-install-rstudio">2. Download and install RStudio</h3>
+<ul>
+<li><p>Visit this website: <a href="https://docs.posit.co/ide/user/#direct-downloads-open-source" class="uri">https://docs.posit.co/ide/user/#direct-downloads-open-source</a></p></li>
+<li><p>Follow instructions for your own operating system. Be sure to get the <strong>latest release (2026.08, Yellow Yarrow)</strong>, as of this document.</p></li>
+<li><p>Remember to both <strong>download</strong> and <strong>install</strong></p></li>
+</ul>
+</section>
+<section id="create-a-github-account" class="level3">
+<h3 class="anchored" data-anchor-id="create-a-github-account">3. Create a GitHub Account</h3>
+<ul>
+<li><p><a href="https://github.com/">Visit Github</a> and sign up for an account!</p></li>
+<li><p>Make your github profile more personal by <a href="https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme">creating a README file</a></p></li>
+</ul>
+</section>
+<section id="install-and-configure-git" class="level3">
+<h3 class="anchored" data-anchor-id="install-and-configure-git">4. Install and configure <code>git</code></h3>
+<p>You might actually already have it! Let’s check for it. Run the below commands by typing them in as written and then pressing Enter.</p>
+<p><strong><em>Mac users</em></strong></p>
+<ul>
+<li><p>You will already have <code>git</code> on your device, and you can check for it by running the following command in your terminal. For this setup, I recommend opening RStudio and visiting the Terminal tab.<br>
+<br>
+<code>which git</code></p></li>
+<li><p>If you see a file path, that means you have <code>git</code>! If you don’t get a response, <a href="https://developer.apple.com/xcode/">download and intall <code>git</code> from Xcode</a>.</p></li>
+</ul>
+<p><strong><em>Windows users</em></strong></p>
+<ul>
+<li>Devices running Windows don’t always come with <code>git</code>. Check for it by opening RStudio, navigating to the Terminal tab, and running the following command:<br>
+<br>
+<code>where git</code></li>
+</ul>
+<!-- -->
+<ul>
+<li>Similar to Mac users, if you get a file path in response, you already have <code>git</code>. If not, then you will need to <a href="https://git-scm.com/install/windows">download and install it using these instructions</a>.</li>
+</ul>
+<section id="configure-git" class="level4">
+<h4 class="anchored" data-anchor-id="configure-git"><strong>Configure <code>git</code></strong></h4>
+<ul>
+<li><p>In RStudio, open the Terminal. Run the following commands. Be sure to <strong>replace</strong> <strong>the username</strong> (keep the quotation marks!) **and email with your own username and email associated with your GitHub account.<br>
+</p>
+<p><code>git config --global user.name "Jane Doe" git config --global user.email janedoe@example.com</code></p></li>
+<li><p>Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:<br>
+<br>
+<code>git config --list --global</code></p></li>
+</ul>
+</section>
+</section>
+<section id="link-r-studio-github" class="level3">
+<h3 class="anchored" data-anchor-id="link-r-studio-github">5. Link R Studio &amp; Github</h3>
+<section id="get-and-store-your-github-personal-access-token-pat" class="level4">
+<h4 class="anchored" data-anchor-id="get-and-store-your-github-personal-access-token-pat"><strong>Get and store your GitHub personal access token (PAT)</strong></h4>
+<p>Now you are almost ready to link your GitHub to RStudio.</p>
+<p><strong>First:</strong> What even is a personal access token? From GitHub’s documentation:</p>
+<blockquote class="blockquote">
+<p>Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the <a href="https://docs.github.com/en/rest/overview/other-authentication-methods#via-oauth-and-personal-access-tokens">GitHub API</a> or the <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-token-on-the-command-line">command line</a>.</p>
+</blockquote>
+<p>In order to push your work (files, scripts, etc.) from the device you are working on to GitHub, you’ll need your PAT.</p>
+<ul>
+<li>Install the <code>usethis</code> package in <code>R</code> by running the following in the <u><strong>RStudio Console</strong></u>:<br>
+<br>
+<code>install.packages("usethis")</code></li>
+<li>A lot of text will show up in your Console. Don’t panic! Wait for it to stop, and as long as you see something like the below, you are all set:</li>
+</ul>
+<pre><code>The downloaded binary packages are in
+    /var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages
+&gt;</code></pre>
+<ul>
+<li><p>Then, run the following in the RStudio Console:<br>
+<br>
+<code>usethis::create_github_token()</code></p></li>
+<li><p>Your browser will launch and take you to GitHub. Enter your GitHub password if prompted.</p></li>
+<li><p>Then, you’ll land on a screen titled <strong>New personal access token</strong>.</p>
+<ul>
+<li><p>In the <strong>Note</strong> field, you will see some autopopulated text, like “DESCRIBE THE TOKEN’S USE CASE”. Replace that text with something like <code>laptop</code> or <code>my_schoolwork</code></p></li>
+<li><p>Under <strong>Expiration</strong>, you can select an expiration date that feels right to you. My recommendation for this class? Either ‘No expiration’ or set a custom date for after the end of the semester</p>
+<ul>
+<li>If you set an expiration date sooner than the end of the semester, you will find yourself having to do this linking process again soon!</li>
+</ul></li>
+</ul></li>
+<li><p>There is no need to change anything else on the screen—just scroll to the bottom and click the green ‘Generate token’ button.</p></li>
+<li><p><strong>Copy the generated PAT and keep track of it until this process is over!</strong></p></li>
+<li><p>In your RStudio Console run:<br>
+<br>
+<code>gitcreds::gitcreds_set()</code></p></li>
+<li><p>Paste your PAT and press Enter to run.<br>
+<br>
+Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)</p></li>
+</ul>
+</section>
+<section id="final-steps" class="level4">
+<h4 class="anchored" data-anchor-id="final-steps">Final steps</h4>
+<ul>
+<li><p>In the RStudio Console, run:<br>
+<br>
+<code>usethis::git_sitrep()</code></p></li>
+<li><p>You should get something like the below in return. (Yours might be longer—I’ve truncated!)</p></li>
+</ul>
+<pre><code>&gt; usethis::git_sitrep()
+
+── Git global (user) 
+• Name: "abcamp"
+• Email: "acamp@hawaii.edu"
+• Global (user-level) gitignore file: ~/.gitignore
+• Vaccinated: FALSE
+ℹ See `usethis::git_vaccinate()` to learn more.
+• Default Git protocol: "https"</code></pre>
+<ul>
+<li><p>Finally, let’s get you vaccinated and on <code>main</code>—I’ll explain these in class. Run the following:<br>
+<br>
+<code>usethis::git_vaccinate()</code></p>
+<p><code>usethis::use_git_config(init.defaultBranch = "main")</code></p></li>
+<li><p>You should be all set now! You can run <code>usethis::git_sitrep()</code> once more to view your changes:<br>
+<br>
+<code>usethis::git_sitrep()</code></p></li>
+</ul>
+<p>Now you are ready for class.</p>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -357,6 +496,13 @@ ul.task-list li input[type="checkbox"] {
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
