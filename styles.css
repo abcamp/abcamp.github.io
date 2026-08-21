@@ -2,3 +2,11 @@
 p, h1, li {
   color: cadetblue;
 }
+
+pre code {
+  color: #b5446e;
+}
+
+code:not(.sourceCode) {
+  color: #6f42c1;
+}

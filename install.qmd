@@ -7,8 +7,6 @@ date: 8/21/26
 
 To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.
 
-Thanks to Connor and Victoria for the inspiration!
-
 ### 1. Download and install R
 
 - Visit this website: <https://cloud.r-project.org>
