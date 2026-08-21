@@ -7,6 +7,8 @@ date: 8/21/26
 
 To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.
 
+Thanks to Connor and Victoria for the inspiration!
+
 ### 1. Download and install R
 
 - Visit this website: <https://cloud.r-project.org>
@@ -169,4 +171,6 @@ usethis::use_git_config(init.defaultBranch = "main")
 usethis::git_sitrep()
 ```
 
-Now you are ready for class.
+Now you are ready for class!
+
+*This guide is adapted from the [installation guide](https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/installation_guide.html) written by Connor Flynn and Victoria DelaCruz for the All-SPICE Alliance SDG Analytics in R certificate, which in turn drew on materials from the Bren School at UC Santa Barbara.*
