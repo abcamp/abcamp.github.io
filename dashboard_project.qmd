@@ -67,9 +67,9 @@ You are welcome to share early versions with me for feedback before submitting y
 
 ## Resources
 
--   [dashboards gallery](https://quarto.org/docs/gallery/#dashboards "target=_blank")
+- [dashboards gallery](https://quarto.org/docs/gallery/#dashboards "target=_blank")
 
--   [dashboard layouts and sample code](https://quarto.org/docs/dashboards/layout.html "target=_blank")
+- [dashboard layouts and sample code](https://quarto.org/docs/dashboards/layout.html "target=_blank")
 
 ## Need help?
 
