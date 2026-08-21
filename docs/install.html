@@ -367,35 +367,38 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="install-and-configure-git" class="level3">
 <h3 class="anchored" data-anchor-id="install-and-configure-git">4. Install and configure <code>git</code></h3>
-<p>You might actually already have it! Let’s check for it. Run the below commands by typing them in as written and then pressing Enter.</p>
+<p>You might already have <code>git</code>! Let’s check.</p>
+<p>Open RStudio and click the <strong>Terminal</strong> tab (next to Console, in the lower-left pane). Type the command below exactly as written, then press Enter.</p>
+<pre><code>git --version</code></pre>
+<p><em>If you see a version number</em>, something like <code>git version 2.55.0</code>, you already have <code>git</code> and can skip ahead to <strong>Configure <code>git</code></strong>.</p>
+<p><em>If you see an error,</em> anything along the lines of <code>command not found</code> or <code>'git' is not recognized</code>, follow the instructions for your operating system below.</p>
 <p><strong><em>Mac users</em></strong></p>
 <ul>
-<li><p>You will already have <code>git</code> on your device, and you can check for it by running the following command in your terminal. For this setup, I recommend opening RStudio and visiting the Terminal tab.<br>
-<br>
-<code>which git</code></p></li>
-<li><p>If you see a file path, that means you have <code>git</code>! If you don’t get a response, <a href="https://developer.apple.com/xcode/">download and intall <code>git</code> from Xcode</a>.</p></li>
+<li>In the Terminal, run:</li>
+</ul>
+<pre><code>xcode-select --install</code></pre>
+<ul>
+<li><p>A dialog box will pop up asking if you want to install the command line developer tools. Click <strong>Install</strong> and wait for it to finish. You do <em>not</em> need the full Xcode application from the App Store.</p></li>
+<li><p>When it’s done, run <code>git --version</code> again to confirm.</p></li>
 </ul>
 <p><strong><em>Windows users</em></strong></p>
 <ul>
-<li>Devices running Windows don’t always come with <code>git</code>. Check for it by opening RStudio, navigating to the Terminal tab, and running the following command:<br>
-<br>
-<code>where git</code></li>
-</ul>
-<!-- -->
-<ul>
-<li>Similar to Mac users, if you get a file path in response, you already have <code>git</code>. If not, then you will need to <a href="https://git-scm.com/install/windows">download and install it using these instructions</a>.</li>
+<li><p>Download and install <a href="https://git-scm.com/install/windows">Git for Windows</a>. Click the big download link at the top of that page.</p></li>
+<li><p>Run the installer. You can accept all of the default options… just keep clicking <strong>Next</strong>.</p></li>
+<li><p><strong>Important:</strong> after installing, fully quit RStudio and reopen it, then run <code>git --version</code> again. RStudio won’t find <code>git</code> until it has been restarted.</p></li>
 </ul>
 <section id="configure-git" class="level4">
 <h4 class="anchored" data-anchor-id="configure-git"><strong>Configure <code>git</code></strong></h4>
 <ul>
-<li><p>In RStudio, open the Terminal. Run the following commands. Be sure to <strong>replace</strong> <strong>the username</strong> (keep the quotation marks!) **and email with your own username and email associated with your GitHub account.<br>
-<br>
-<code>git config --global user.name "Jane Doe"</code><br>
-<code>git config --global user.email janedoe@example.com</code></p></li>
-<li><p>Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:<br>
-<br>
-<code>git config --list --global</code></p></li>
+<li>In RStudio, open the Terminal. Run the following commands. Be sure to <strong>replace the username</strong> (keep the quotation marks!) and email with your own username and email associated with your GitHub account.</li>
 </ul>
+<pre><code>git config --global user.name "Jane Doe"
+git config --global user.email janedoe@example.com</code></pre>
+<ul>
+<li>Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:<br>
+</li>
+</ul>
+<pre><code>git config --list --global</code></pre>
 </section>
 </section>
 <section id="link-r-studio-github" class="level3">
@@ -403,24 +406,26 @@ ul.task-list li input[type="checkbox"] {
 <section id="get-and-store-your-github-personal-access-token-pat" class="level4">
 <h4 class="anchored" data-anchor-id="get-and-store-your-github-personal-access-token-pat"><strong>Get and store your GitHub personal access token (PAT)</strong></h4>
 <p>Now you are almost ready to link your GitHub to RStudio.</p>
-<p><strong>First:</strong> What even is a personal access token? From GitHub’s documentation:</p>
+<p><strong>First:</strong> What is a personal access token? From GitHub’s documentation:</p>
 <blockquote class="blockquote">
 <p>Personal access tokens (PATs) are an alternative to using passwords for authentication to GitHub when using the <a href="https://docs.github.com/en/rest/overview/other-authentication-methods#via-oauth-and-personal-access-tokens">GitHub API</a> or the <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#using-a-token-on-the-command-line">command line</a>.</p>
 </blockquote>
 <p>In order to push your work (files, scripts, etc.) from the device you are working on to GitHub, you’ll need your PAT.</p>
 <ul>
-<li>Install the <code>usethis</code> package in <code>R</code> by running the following in the <u><strong>RStudio Console</strong></u>:<br>
-<br>
-<code>install.packages("usethis")</code></li>
+<li>Install the <code>usethis</code> package in <code>R</code> by running the following in the <u><strong>RStudio Console</strong></u>:</li>
+</ul>
+<pre><code>install.packages("usethis")</code></pre>
+<ul>
 <li>A lot of text will show up in your Console. Don’t panic! Wait for it to stop, and as long as you see something like the below, you are all set:</li>
 </ul>
 <pre><code>The downloaded binary packages are in
     /var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages
 &gt;</code></pre>
 <ul>
-<li><p>Then, run the following in the RStudio Console:<br>
-<br>
-<code>usethis::create_github_token()</code></p></li>
+<li>Then, run the following in the RStudio Console:</li>
+</ul>
+<pre><code>usethis::create_github_token()</code></pre>
+<ul>
 <li><p>Your browser will launch and take you to GitHub. Enter your GitHub password if prompted.</p></li>
 <li><p>Then, you’ll land on a screen titled <strong>New personal access token</strong>.</p>
 <ul>
@@ -432,21 +437,22 @@ ul.task-list li input[type="checkbox"] {
 </ul></li>
 <li><p>There is no need to change anything else on the screen—just scroll to the bottom and click the green ‘Generate token’ button.</p></li>
 <li><p><strong>Copy the generated PAT and keep track of it until this process is over!</strong></p></li>
-<li><p>In your RStudio Console run:<br>
-<br>
-<code>gitcreds::gitcreds_set()</code></p></li>
-<li><p>Paste your PAT and press Enter to run.<br>
-<br>
-Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)</p></li>
+<li><p>In your RStudio Console run:</p></li>
+</ul>
+<pre><code>gitcreds::gitcreds_set()</code></pre>
+<ul>
+<li><p>Paste your PAT and press Enter to run.</p>
+<p>Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)</p></li>
 </ul>
 </section>
 <section id="final-steps" class="level4">
 <h4 class="anchored" data-anchor-id="final-steps">Final steps</h4>
 <ul>
-<li><p>In the RStudio Console, run:<br>
-<br>
-<code>usethis::git_sitrep()</code></p></li>
-<li><p>You should get something like the below in return. (Yours might be longer—I’ve truncated!)</p></li>
+<li>In the RStudio Console, run:</li>
+</ul>
+<pre><code>usethis::git_sitrep()</code></pre>
+<ul>
+<li>You should get something like the below in return. (Yours might be longer—I’ve truncated!)</li>
 </ul>
 <pre><code>&gt; usethis::git_sitrep()
 
@@ -458,14 +464,14 @@ Things should run smoothly from here! (If you previously had a PAT saved, follow
 ℹ See `usethis::git_vaccinate()` to learn more.
 • Default Git protocol: "https"</code></pre>
 <ul>
-<li><p>Finally, let’s get you vaccinated and on <code>main</code>—I’ll explain these in class. Run the following:<br>
-<br>
-<code>usethis::git_vaccinate()</code></p>
-<p><code>usethis::use_git_config(init.defaultBranch = "main")</code></p></li>
-<li><p>You should be all set now! You can run <code>usethis::git_sitrep()</code> once more to view your changes:<br>
-<br>
-<code>usethis::git_sitrep()</code></p></li>
+<li>Finally, let’s get you vaccinated and on <code>main</code>—I’ll explain these in class. Run the following:</li>
 </ul>
+<pre><code>usethis::git_vaccinate()
+usethis::use_git_config(init.defaultBranch = "main")</code></pre>
+<ul>
+<li>You should be all set now! You can run <code>usethis::git_sitrep()</code> once more to view your changes:</li>
+</ul>
+<pre><code>usethis::git_sitrep()</code></pre>
 <p>Now you are ready for class.</p>
 
 
@@ -890,7 +896,7 @@ Things should run smoothly from here! (If you previously had a PAT saved, follow
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>© Copyright 2025, Amber Camp</p>
+<p>© Copyright 2026, Amber Camp</p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;
