@@ -21,6 +21,41 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -369,14 +404,14 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="install-and-configure-git">4. Install and configure <code>git</code></h3>
 <p>You might already have <code>git</code>! Let’s check.</p>
 <p>Open RStudio and click the <strong>Terminal</strong> tab (next to Console, in the lower-left pane). Type the command below exactly as written, then press Enter.</p>
-<pre><code>git --version</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><em>If you see a version number</em>, something like <code>git version 2.55.0</code>, you already have <code>git</code> and can skip ahead to <strong>Configure <code>git</code></strong>.</p>
 <p><em>If you see an error,</em> anything along the lines of <code>command not found</code> or <code>'git' is not recognized</code>, follow the instructions for your operating system below.</p>
 <p><strong><em>Mac users</em></strong></p>
 <ul>
 <li>In the Terminal, run:</li>
 </ul>
-<pre><code>xcode-select --install</code></pre>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">xcode-select</span> <span class="at">--install</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><p>A dialog box will pop up asking if you want to install the command line developer tools. Click <strong>Install</strong> and wait for it to finish. You do <em>not</em> need the full Xcode application from the App Store.</p></li>
 <li><p>When it’s done, run <code>git --version</code> again to confirm.</p></li>
@@ -392,13 +427,13 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li>In RStudio, open the Terminal. Run the following commands. Be sure to <strong>replace the username</strong> (keep the quotation marks!) and email with your own username and email associated with your GitHub account.</li>
 </ul>
-<pre><code>git config --global user.name "Jane Doe"
-git config --global user.email janedoe@example.com</code></pre>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.name <span class="st">"Jane Doe"</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--global</span> user.email janedoe@example.com</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:<br>
 </li>
 </ul>
-<pre><code>git config --list --global</code></pre>
+<div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--list</span> <span class="at">--global</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
 <section id="link-r-studio-github" class="level3">
@@ -414,17 +449,17 @@ git config --global user.email janedoe@example.com</code></pre>
 <ul>
 <li>Install the <code>usethis</code> package in <code>R</code> by running the following in the <u><strong>RStudio Console</strong></u>:</li>
 </ul>
-<pre><code>install.packages("usethis")</code></pre>
+<div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">install.packages</span><span class="er">(</span><span class="st">"usethis"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>A lot of text will show up in your Console. Don’t panic! Wait for it to stop, and as long as you see something like the below, you are all set:</li>
 </ul>
-<pre><code>The downloaded binary packages are in
-    /var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages
-&gt;</code></pre>
+<div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">The</span> downloaded binary packages are in</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">/var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="op">&gt;</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>Then, run the following in the RStudio Console:</li>
 </ul>
-<pre><code>usethis::create_github_token()</code></pre>
+<div class="sourceCode" id="cb7"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">usethis::create_github_token()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><p>Your browser will launch and take you to GitHub. Enter your GitHub password if prompted.</p></li>
 <li><p>Then, you’ll land on a screen titled <strong>New personal access token</strong>.</p>
@@ -439,7 +474,7 @@ git config --global user.email janedoe@example.com</code></pre>
 <li><p><strong>Copy the generated PAT and keep track of it until this process is over!</strong></p></li>
 <li><p>In your RStudio Console run:</p></li>
 </ul>
-<pre><code>gitcreds::gitcreds_set()</code></pre>
+<div class="sourceCode" id="cb8"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="fu">gitcreds::gitcreds_set()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><p>Paste your PAT and press Enter to run.</p>
 <p>Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)</p></li>
@@ -450,7 +485,7 @@ git config --global user.email janedoe@example.com</code></pre>
 <ul>
 <li>In the RStudio Console, run:</li>
 </ul>
-<pre><code>usethis::git_sitrep()</code></pre>
+<div class="sourceCode" id="cb9"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">usethis::git_sitrep()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>You should get something like the below in return. (Yours might be longer—I’ve truncated!)</li>
 </ul>
@@ -466,12 +501,12 @@ git config --global user.email janedoe@example.com</code></pre>
 <ul>
 <li>Finally, let’s get you vaccinated and on <code>main</code>—I’ll explain these in class. Run the following:</li>
 </ul>
-<pre><code>usethis::git_vaccinate()
-usethis::use_git_config(init.defaultBranch = "main")</code></pre>
+<div class="sourceCode" id="cb11"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">usethis::git_vaccinate()</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a><span class="ex">usethis::use_git_config</span><span class="er">(</span><span class="ex">init.defaultBranch</span> = <span class="st">"main"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li>You should be all set now! You can run <code>usethis::git_sitrep()</code> once more to view your changes:</li>
 </ul>
-<pre><code>usethis::git_sitrep()</code></pre>
+<div class="sourceCode" id="cb12"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="fu">usethis::git_sitrep()</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Now you are ready for class!</p>
 <p><em>This guide is adapted from the <a href="https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/installation_guide.html">installation guide</a> written by Connor Flynn and Victoria DelaCruz for the All-SPICE Alliance SDG Analytics in R certificate, which in turn drew on materials from the Bren School at UC Santa Barbara.</em></p>
 

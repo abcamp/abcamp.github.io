@@ -35,7 +35,7 @@ You might already have `git`! Let's check.
 
 Open RStudio and click the **Terminal** tab (next to Console, in the lower-left pane). Type the command below exactly as written, then press Enter.
 
-```         
+``` bash
 git --version
 ```
 
@@ -47,7 +47,7 @@ git --version
 
 - In the Terminal, run:
 
-```         
+``` bash
 xcode-select --install
 ```
 
@@ -67,14 +67,14 @@ xcode-select --install
 
 - In RStudio, open the Terminal. Run the following commands. Be sure to **replace the username** (keep the quotation marks!) and email with your own username and email associated with your GitHub account.
 
-```         
+``` bash
 git config --global user.name "Jane Doe"
 git config --global user.email janedoe@example.com
 ```
 
 - Then, again in the Terminal, run the following, carefully checking that the name and email match your GitHub information:\
 
-```         
+``` bash
 git config --list --global
 ```
 
@@ -92,13 +92,13 @@ In order to push your work (files, scripts, etc.) from the device you are workin
 
 - Install the `usethis` package in `R` by running the following in the [**RStudio Console**]{.underline}:
 
-```         
+``` bash
 install.packages("usethis")
 ```
 
 - A lot of text will show up in your Console. Don't panic! Wait for it to stop, and as long as you see something like the below, you are all set:
 
-```         
+``` bash
 The downloaded binary packages are in
     /var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages
 >
@@ -106,7 +106,7 @@ The downloaded binary packages are in
 
 - Then, run the following in the RStudio Console:
 
-```         
+``` bash
 usethis::create_github_token()
 ```
 
@@ -126,7 +126,7 @@ usethis::create_github_token()
 
 - In your RStudio Console run:
 
-```         
+``` bash
 gitcreds::gitcreds_set()
 ```
 
@@ -138,7 +138,7 @@ gitcreds::gitcreds_set()
 
 - In the RStudio Console, run:
 
-```         
+``` bash
 usethis::git_sitrep()
 ```
 
@@ -158,14 +158,14 @@ usethis::git_sitrep()
 
 - Finally, let's get you vaccinated and on `main`—I'll explain these in class. Run the following:
 
-```         
+``` bash
 usethis::git_vaccinate()
 usethis::use_git_config(init.defaultBranch = "main")
 ```
 
 - You should be all set now! You can run `usethis::git_sitrep()` once more to view your changes:
 
-```         
+``` bash
 usethis::git_sitrep()
 ```
 
