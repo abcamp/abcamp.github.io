@@ -334,13 +334,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a>
-  <ul class="collapse">
-  <li><a href="#download-and-install-r" id="toc-download-and-install-r" class="nav-link" data-scroll-target="#download-and-install-r">1. Download and install R</a></li>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#download-and-install-r" id="toc-download-and-install-r" class="nav-link" data-scroll-target="#download-and-install-r">1. Download and install <code>R</code></a></li>
   <li><a href="#download-and-install-rstudio" id="toc-download-and-install-rstudio" class="nav-link" data-scroll-target="#download-and-install-rstudio">2. Download and install RStudio</a></li>
   <li><a href="#create-a-github-account" id="toc-create-a-github-account" class="nav-link" data-scroll-target="#create-a-github-account">3. Create a GitHub Account</a></li>
-  <li><a href="#install-and-configure-git" id="toc-install-and-configure-git" class="nav-link" data-scroll-target="#install-and-configure-git">4. Install and configure <code>git</code></a></li>
-  <li><a href="#link-r-studio-github" id="toc-link-r-studio-github" class="nav-link" data-scroll-target="#link-r-studio-github">5. Link R Studio &amp; Github</a></li>
+  <li><a href="#install-and-configure-git" id="toc-install-and-configure-git" class="nav-link" data-scroll-target="#install-and-configure-git">4. Install and configure <code>git</code></a>
+  <ul class="collapse">
+  <li><a href="#check-for-git" id="toc-check-for-git" class="nav-link" data-scroll-target="#check-for-git">Check for <code>git</code></a></li>
+  <li><a href="#configure-git" id="toc-configure-git" class="nav-link" data-scroll-target="#configure-git"><strong>Configure <code>git</code></strong></a></li>
+  </ul></li>
+  <li><a href="#link-rstudio-github" id="toc-link-rstudio-github" class="nav-link" data-scroll-target="#link-rstudio-github">5. Link RStudio &amp; Github</a>
+  <ul class="collapse">
+  <li><a href="#get-and-store-your-github-personal-access-token-pat" id="toc-get-and-store-your-github-personal-access-token-pat" class="nav-link" data-scroll-target="#get-and-store-your-github-personal-access-token-pat"><strong>Get and store your GitHub personal access token (PAT)</strong></a></li>
+  <li><a href="#final-steps" id="toc-final-steps" class="nav-link" data-scroll-target="#final-steps">Final steps</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -377,37 +383,41 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="overview" class="level2">
 <h2 class="anchored" data-anchor-id="overview">Overview</h2>
 <p>To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.</p>
-<section id="download-and-install-r" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-r">1. Download and install R</h3>
+</section>
+<section id="download-and-install-r" class="level2">
+<h2 class="anchored" data-anchor-id="download-and-install-r">1. Download and install <code>R</code></h2>
 <ul>
 <li><p>Visit this website: <a href="https://cloud.r-project.org" class="uri">https://cloud.r-project.org</a></p></li>
 <li><p>Follow instructions for your own operating system. Be sure to get the <strong>latest release (2026-06-24, Happy Hop)</strong>, as of this document.</p></li>
 <li><p>Remember to both <strong>download</strong> and <strong>install</strong></p></li>
 </ul>
 </section>
-<section id="download-and-install-rstudio" class="level3">
-<h3 class="anchored" data-anchor-id="download-and-install-rstudio">2. Download and install RStudio</h3>
+<section id="download-and-install-rstudio" class="level2">
+<h2 class="anchored" data-anchor-id="download-and-install-rstudio">2. Download and install RStudio</h2>
 <ul>
 <li><p>Visit this website: <a href="https://docs.posit.co/ide/user/#direct-downloads-open-source" class="uri">https://docs.posit.co/ide/user/#direct-downloads-open-source</a></p></li>
 <li><p>Follow instructions for your own operating system. Be sure to get the <strong>latest release (2026.08, Yellow Yarrow)</strong>, as of this document.</p></li>
 <li><p>Remember to both <strong>download</strong> and <strong>install</strong></p></li>
 </ul>
 </section>
-<section id="create-a-github-account" class="level3">
-<h3 class="anchored" data-anchor-id="create-a-github-account">3. Create a GitHub Account</h3>
+<section id="create-a-github-account" class="level2">
+<h2 class="anchored" data-anchor-id="create-a-github-account">3. Create a GitHub Account</h2>
 <ul>
 <li><p><a href="https://github.com/">Visit Github</a> and sign up for an account!</p></li>
 <li><p>Make your github profile more personal by <a href="https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme">creating a README file</a></p></li>
 </ul>
 </section>
-<section id="install-and-configure-git" class="level3">
-<h3 class="anchored" data-anchor-id="install-and-configure-git">4. Install and configure <code>git</code></h3>
+<section id="install-and-configure-git" class="level2">
+<h2 class="anchored" data-anchor-id="install-and-configure-git">4. Install and configure <code>git</code></h2>
 <p>You might already have <code>git</code>! Let’s check.</p>
+<section id="check-for-git" class="level3">
+<h3 class="anchored" data-anchor-id="check-for-git">Check for <code>git</code></h3>
 <p>Open RStudio and click the <strong>Terminal</strong> tab (next to Console, in the lower-left pane). Type the command below exactly as written, then press Enter.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> <span class="at">--version</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p><em>If you see a version number</em>, something like <code>git version 2.55.0</code>, you already have <code>git</code> and can skip ahead to <strong>Configure <code>git</code></strong>.</p>
 <p><em>If you see an error,</em> anything along the lines of <code>command not found</code> or <code>'git' is not recognized</code>, follow the instructions for your operating system below.</p>
-<p><strong><em>Mac users</em></strong></p>
+<section id="mac-users" class="level4">
+<h4 class="anchored" data-anchor-id="mac-users"><strong><em>Mac users</em></strong></h4>
 <ul>
 <li>In the Terminal, run:</li>
 </ul>
@@ -416,14 +426,18 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>A dialog box will pop up asking if you want to install the command line developer tools. Click <strong>Install</strong> and wait for it to finish. You do <em>not</em> need the full Xcode application from the App Store.</p></li>
 <li><p>When it’s done, run <code>git --version</code> again to confirm.</p></li>
 </ul>
-<p><strong><em>Windows users</em></strong></p>
+</section>
+<section id="windows-users" class="level4">
+<h4 class="anchored" data-anchor-id="windows-users"><strong><em>Windows users</em></strong></h4>
 <ul>
 <li><p>Download and install <a href="https://git-scm.com/install/windows">Git for Windows</a>. Click the big download link at the top of that page.</p></li>
 <li><p>Run the installer. You can accept all of the default options… just keep clicking <strong>Next</strong>.</p></li>
 <li><p><strong>Important:</strong> after installing, fully quit RStudio and reopen it, then run <code>git --version</code> again. RStudio won’t find <code>git</code> until it has been restarted.</p></li>
 </ul>
-<section id="configure-git" class="level4">
-<h4 class="anchored" data-anchor-id="configure-git"><strong>Configure <code>git</code></strong></h4>
+</section>
+</section>
+<section id="configure-git" class="level3">
+<h3 class="anchored" data-anchor-id="configure-git"><strong>Configure <code>git</code></strong></h3>
 <ul>
 <li>In RStudio, open the Terminal. Run the following commands. Be sure to <strong>replace the username</strong> (keep the quotation marks!) and email with your own username and email associated with your GitHub account.</li>
 </ul>
@@ -436,10 +450,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb4"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="fu">git</span> config <span class="at">--list</span> <span class="at">--global</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="link-r-studio-github" class="level3">
-<h3 class="anchored" data-anchor-id="link-r-studio-github">5. Link R Studio &amp; Github</h3>
-<section id="get-and-store-your-github-personal-access-token-pat" class="level4">
-<h4 class="anchored" data-anchor-id="get-and-store-your-github-personal-access-token-pat"><strong>Get and store your GitHub personal access token (PAT)</strong></h4>
+<section id="link-rstudio-github" class="level2">
+<h2 class="anchored" data-anchor-id="link-rstudio-github">5. Link RStudio &amp; Github</h2>
+<section id="get-and-store-your-github-personal-access-token-pat" class="level3">
+<h3 class="anchored" data-anchor-id="get-and-store-your-github-personal-access-token-pat"><strong>Get and store your GitHub personal access token (PAT)</strong></h3>
 <p>Now you are almost ready to link your GitHub to RStudio.</p>
 <p><strong>First:</strong> What is a personal access token? From GitHub’s documentation:</p>
 <blockquote class="blockquote">
@@ -451,7 +465,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 <div class="sourceCode" id="cb5"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="ex">install.packages</span><span class="er">(</span><span class="st">"usethis"</span><span class="kw">)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
-<li>A lot of text will show up in your Console. Don’t panic! Wait for it to stop, and as long as you see something like the below, you are all set:</li>
+<li>A bunch of text will show up in your Console. Don’t panic! Wait for it to stop, and as long as you see something like the below, you are all set:</li>
 </ul>
 <div class="sourceCode" id="cb6"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="ex">The</span> downloaded binary packages are in</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="ex">/var/folders/_v/_81c8d2j367c4dxnd_n09pq80000gn/T//RtmpME9OdS/downloaded_packages</span></span>
@@ -464,7 +478,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <li><p>Your browser will launch and take you to GitHub. Enter your GitHub password if prompted.</p></li>
 <li><p>Then, you’ll land on a screen titled <strong>New personal access token</strong>.</p>
 <ul>
-<li><p>In the <strong>Note</strong> field, you will see some autopopulated text, like “DESCRIBE THE TOKEN’S USE CASE”. Replace that text with something like <code>laptop</code> or <code>my_schoolwork</code></p></li>
+<li><p>In the <strong>Note</strong> field, you will see some auto-populated text, like “DESCRIBE THE TOKEN’S USE CASE”. Replace that text with something like <code>laptop</code> or <code>my_schoolwork</code></p></li>
 <li><p>Under <strong>Expiration</strong>, you can select an expiration date that feels right to you. My recommendation for this class? Either ‘No expiration’ or set a custom date for after the end of the semester</p>
 <ul>
 <li>If you set an expiration date sooner than the end of the semester, you will find yourself having to do this linking process again soon!</li>
@@ -480,8 +494,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)</p></li>
 </ul>
 </section>
-<section id="final-steps" class="level4">
-<h4 class="anchored" data-anchor-id="final-steps">Final steps</h4>
+<section id="final-steps" class="level3">
+<h3 class="anchored" data-anchor-id="final-steps">Final steps</h3>
 <ul>
 <li>In the RStudio Console, run:</li>
 </ul>
@@ -511,7 +525,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>This guide is adapted from the <a href="https://nsf-all-spice-alliance.github.io/SDG-Analytics-in-R/rmarkdowns/installation_guide.html">installation guide</a> written by Connor Flynn and Victoria DelaCruz for the All-SPICE Alliance SDG Analytics in R certificate, which in turn drew on materials from the Bren School at UC Santa Barbara.</em></p>
 
 
-</section>
 </section>
 </section>
 

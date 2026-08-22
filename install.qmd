@@ -7,7 +7,7 @@ date: 8/21/26
 
 To be successful in CS-201, you will need to install R and RStudio and also connect them both to Git and GitHub.
 
-### 1. Download and install R
+## 1. Download and install `R`
 
 - Visit this website: <https://cloud.r-project.org>
 
@@ -15,7 +15,7 @@ To be successful in CS-201, you will need to install R and RStudio and also conn
 
 - Remember to both **download** and **install**
 
-### 2. Download and install RStudio
+## 2. Download and install RStudio
 
 - Visit this website: <https://docs.posit.co/ide/user/#direct-downloads-open-source>
 
@@ -23,15 +23,17 @@ To be successful in CS-201, you will need to install R and RStudio and also conn
 
 - Remember to both **download** and **install**
 
-### 3. Create a GitHub Account
+## 3. Create a GitHub Account
 
 - [Visit Github](https://github.com/) and sign up for an account!
 
 - Make your github profile more personal by [creating a README file](https://docs.github.com/en/account-and-profile/how-tos/profile-customization/managing-your-profile-readme)
 
-### 4. Install and configure `git`
+## 4. Install and configure `git`
 
 You might already have `git`! Let's check.
+
+### Check for `git`
 
 Open RStudio and click the **Terminal** tab (next to Console, in the lower-left pane). Type the command below exactly as written, then press Enter.
 
@@ -43,7 +45,7 @@ git --version
 
 *If you see an error,* anything along the lines of `command not found` or `'git' is not recognized`, follow the instructions for your operating system below.
 
-***Mac users***
+#### ***Mac users***
 
 - In the Terminal, run:
 
@@ -55,7 +57,7 @@ xcode-select --install
 
 - When it's done, run `git --version` again to confirm.
 
-***Windows users***
+#### ***Windows users***
 
 - Download and install [Git for Windows](https://git-scm.com/install/windows). Click the big download link at the top of that page.
 
@@ -63,7 +65,7 @@ xcode-select --install
 
 - **Important:** after installing, fully quit RStudio and reopen it, then run `git --version` again. RStudio won't find `git` until it has been restarted.
 
-#### **Configure `git`**
+### **Configure `git`**
 
 - In RStudio, open the Terminal. Run the following commands. Be sure to **replace the username** (keep the quotation marks!) and email with your own username and email associated with your GitHub account.
 
@@ -78,9 +80,9 @@ git config --global user.email janedoe@example.com
 git config --list --global
 ```
 
-### 5. Link R Studio & Github
+## 5. Link RStudio & Github
 
-#### **Get and store your GitHub personal access token (PAT)**
+### **Get and store your GitHub personal access token (PAT)**
 
 Now you are almost ready to link your GitHub to RStudio.
 
@@ -96,7 +98,7 @@ In order to push your work (files, scripts, etc.) from the device you are workin
 install.packages("usethis")
 ```
 
-- A lot of text will show up in your Console. Don't panic! Wait for it to stop, and as long as you see something like the below, you are all set:
+- A bunch of text will show up in your Console. Don't panic! Wait for it to stop, and as long as you see something like the below, you are all set:
 
 ``` bash
 The downloaded binary packages are in
@@ -114,7 +116,7 @@ usethis::create_github_token()
 
 - Then, you’ll land on a screen titled **New personal access token**.
 
-  - In the **Note** field, you will see some autopopulated text, like "DESCRIBE THE TOKEN'S USE CASE". Replace that text with something like `laptop` or `my_schoolwork`
+  - In the **Note** field, you will see some auto-populated text, like "DESCRIBE THE TOKEN'S USE CASE". Replace that text with something like `laptop` or `my_schoolwork`
 
   - Under **Expiration**, you can select an expiration date that feels right to you. My recommendation for this class? Either 'No expiration' or set a custom date for after the end of the semester
 
@@ -134,7 +136,7 @@ gitcreds::gitcreds_set()
 
   Things should run smoothly from here! (If you previously had a PAT saved, follow the prompts to replace with new credentials)
 
-#### Final steps
+### Final steps
 
 - In the RStudio Console, run:
 
