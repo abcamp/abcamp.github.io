@@ -18,7 +18,7 @@ LanguageFinder was started by [Catherine Brockway](https://geoling.github.io), a
 
 ### Thai tone & intonation
 
-How do lexical tone and sentence intonation interact in Thai, and which acoustic cues do listeners use to process each? I addressed this through a categorical perception study, a production study, and an eye-tracking study of real-time processing. Supervised by Amy Schafer (University of Hawaiʻi at Mānoa)
+How do lexical tone and sentence intonation interact in Thai, and which acoustic cues do listeners use to process each? I addressed this through a categorical perception study, a production study, and an eye-tracking study of real-time processing. Supervised by Amy Schafer (University of Hawaiʻi at Mānoa).
 
 ### Stress in Pidgin (Hawaiʻi Creole)
 

@@ -20,13 +20,15 @@ There are two steps to submitting this project.
 
 ![](media/update_profile.png){fig-align="left" width="40%"}
 
-2.  Submit a "done!" message to Canvas that includes your website URL. It should look something like `<yourgithubname>.github.io`.
+2.  Submit a message to Canvas that includes the following:
+    - Your website URL. It should look something like `<yourgithubname>.github.io`
+    - Two or three sentences on what you customized and why
 
 ### Required Components
 
 This is your website, so make it look how you want, and present whatever information you'd like to share online! There are only a few requirements for the assignment:
 
-1.  The website must be live and functional
+1.  The website must be live and functional (the site loads at the URL, navigation works, and nothing is broken)
 
 2.  There must be an **index** page
 
@@ -36,7 +38,9 @@ This is your website, so make it look how you want, and present whatever informa
 
 5.  There must be at least one customization somewhere (theme/template, colors, TOC, etc.)
 
-6.  Everything should be neat, free of typos, and reflect thought and planning.
+6.  Everything should be neat, free of typos, and reflect thought and planning (e.g., no leftover template or placeholder text, page titles match the navigation, etc.)
+
+Please remember that these websites are public. Do not post anything you don't want strangers to see. You may use a nickname or avoid personal photos if you prefer.
 
 ## Resources
 
@@ -52,4 +56,4 @@ There are many resources at your disposal. Use 'em all, even those not listed he
 8.  [embedpdf](https://github.com/jmgirard/embedpdf){target="_blank"}
 9.  Check out what your classmates are doing and look at their code!
 
-For some personal branding guidance, have a look at these UCSB course materials, again from Sam Csik. Pay special attention to "[Create your own personal branding guide" under "Pre-class Prep."](https://ucsb-meds.github.io/EDS-296-DS-portfolios/course-materials/week2-customizing-websites.html#pre-class-prep){target="\"_blank"}
+For some personal branding guidance, have a look at these UCSB course materials, again from Sam Csik. Pay special attention to ["Create your own personal branding guide" under "Pre-class Prep."](https://ucsb-meds.github.io/EDS-296-DS-portfolios/course-materials/week2-customizing-websites.html#pre-class-prep){target="_blank"}
