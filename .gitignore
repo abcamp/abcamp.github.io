@@ -4,7 +4,7 @@
 .httr-oauth
 .DS_Store
 .quarto
-advisees.qmd
-docs/advisees.html
+_advisees.qmd
+docs/_advisees.html
 
 /.quarto/
