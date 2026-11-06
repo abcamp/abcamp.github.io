@@ -10,6 +10,8 @@ website:
       - href: index.qmd
         text: Home
       - research.qmd
+      - href: http://abcamp.github.io/dashboards
+        text: Dashboard Projects
       - teaching.qmd
       - cv.qmd
       - href: lors.qmd
