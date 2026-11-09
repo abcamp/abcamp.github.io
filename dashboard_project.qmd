@@ -1,5 +1,5 @@
 ---
-title: "CS201 Final Dashboard Project (Fall 2025)"
+title: "CS201 Final Dashboard Project (Fall 2026)"
 date: 11/9/26
 ---
 
