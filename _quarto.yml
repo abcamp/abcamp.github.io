@@ -11,13 +11,15 @@ website:
         text: Home
       - research.qmd
       - href: http://abcamp.github.io/dashboards
-        text: Dashboard Projects
+        text: Projects
       - teaching.qmd
       - cv.qmd
       - href: lors.qmd
         text: Rec Letters
       - href: assignment.qmd
         text: CS-201 Website Assignment
+      - href: dashboard_project.qmd
+        text: CS-201 Final Project
       - contact.qmd
       - icon: github
         href: https://github.com/abcamp
