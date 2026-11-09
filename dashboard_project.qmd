@@ -21,7 +21,7 @@ There are three steps to submitting this project.
 
 2.  Double-check that your dashboard loads and all visuals display correctly.
 
-3.  Submit your dashboard link to Canvas along with a "done!" message. It should look something like `<yourname>.github.io/dashboards/<yourdashboard>.html`.
+3.  Submit your dashboard link to Canvas. It should look something like `<yourname>.github.io/dashboards/<yourdashboard>.html`.
 
 Changes pushed after the deadline will not be considered.
 
