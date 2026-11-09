@@ -1,6 +1,6 @@
 ---
 title: "CS201 Final Dashboard Project (Fall 2025)"
-date: 11/5/25
+date: 11/9/26
 ---
 
 ## Instructions & Requirements
@@ -9,15 +9,21 @@ You have learned several new skills over the course of this semester–now it is
 
 ### Due Date
 
-This project will be due on **Thursday, December 11 at 5:30 pm**. Extensions may be granted in extenuating circumstances if you [**arrange with me in advance**]{.underline}.
+This project will be due on **Thursday, December 10 at 5:30 pm**. Extensions may be granted in extenuating circumstances if you [**arrange with me in advance**]{.underline}.
+
+You will present your dashboard to the class before this deadline (see the presentation assignment in Canvas). After your presentation, you can keep refining your dashboard. The version you submit by the due date is the one I will grade.
 
 ### How to Submit
 
-There are two steps to submitting this project.
+There are three steps to submitting this project.
 
 1.  Push your final dashboard assignment to GitHub.
 
-2.  Upload your dashboard link to Canvas. It should look something like `<yourname>.github.io/dashboards/<yourdashboard>.html`.
+2.  Double-check that your dashboard loads and all visuals display correctly.
+
+3.  Submit your dashboard link to Canvas along with a "done!" message. It should look something like `<yourname>.github.io/dashboards/<yourdashboard>.html`.
+
+Changes pushed after the deadline will not be considered.
 
 ### Requirements
 
@@ -73,4 +79,4 @@ You are welcome to share early versions with me for feedback before submitting y
 
 ## Need help?
 
-Get in touch with me! I am still here to help. Send me a message at `amber.camp@chaminade.edu`, no matter how small of a question you have. We can arrange to meet in person or on Zoom as well. Have fun with this project!
+Get in touch with me! I am here to help. Send me a message at `amber.camp@chaminade.edu`, no matter how small of a question you have. We can arrange to meet in person or on Zoom as well. Have fun with this project!
